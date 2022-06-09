@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[5310],{9807:function(e){e.exports=JSON.parse('{"permalink":"/JulyOT/blog","page":1,"postsPerPage":1,"totalPages":4,"totalCount":4,"nextPage":"/JulyOT/blog/page/2","blogDescription":"Blog","blogTitle":"Blog"}')}}]);
