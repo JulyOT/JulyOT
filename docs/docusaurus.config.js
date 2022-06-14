@@ -14,7 +14,7 @@ const config = {
 
   // --- CONFIG-START #1: GitHub Pages
   url: 'https://JulyOT.github.io',
-  baseUrl: '/JulyOT/',
+  baseUrl: '/',
   projectName: 'JulyOT',
   organizationName: 'JulyOT',
   trailingSlash: false,
