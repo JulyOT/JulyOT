@@ -349,3 +349,27 @@ Tools to help in the migration has been built to automate some of the migration 
 Here is a view of the devices!
 
 [![device list](~/static/img/png/iot-device-list.png)](https://github.com/nanoframework/nanoFramework.IoT.Device#list-of-devices)
+
+Each binding has its own sample. All is well organized and you'll find those in the `/devices/BindingName/samples` directory. And as an example, here is how you can use a BMP280:
+
+```csharp
+// bus id on the MCU
+const int busId = 1;
+
+I2cConnectionSettings i2cSettings = new(busId, Bmp280.DefaultI2cAddress);
+I2cDevice i2cDevice = I2cDevice.Create(i2cSettings);
+using var i2CBmp280 = new Bmp280(i2cDevice);
+
+// set higher sampling
+i2CBmp280.TemperatureSampling = Sampling.LowPower;
+i2CBmp280.PressureSampling = Sampling.UltraHighResolution;
+
+// Perform a synchronous measurement
+var readResult = i2CBmp280.Read();
+
+// Print out the measured data
+Debug.WriteLine($"Temperature: {readResult.Temperature?.DegreesCelsius:0.#}\u00B0C");
+Debug.WriteLine($"Pressure: {readResult.Pressure?.Hectopascals:0.##}hPa");
+```
+
+You will note as well the usage of [UnitsNet](https://github.com/angularsen/UnitsNet). We've atomized the most popular ones and provide them as nuget. They are used to facilitate any unit conversion. So you don't need to think if you have to provide a temperature as a Celsius or a Fahrenheit. It's just a temperature, the end developer will just choose the unit to display. The rest of the magic is done for you.
