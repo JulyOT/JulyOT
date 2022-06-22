@@ -90,3 +90,5 @@ Here are some advantages over other similar systems:
 - Official .NET nanoFramework [site and blog](https://www.nanoframework.net/).
 - [All our documentation](https://docs.nanoframework.net/) for API, classes, how to install, build your own images, architecture and more!.
 - THE place to go to get any code: our [Github .NET nanoFramework](https://github.com/nanoframework).
+
+Find us on Fridays all July! See you for another post on how to use GPIO, SPI, I2C, PWM and more on .NET nanoFramework! And feedback welcome.
