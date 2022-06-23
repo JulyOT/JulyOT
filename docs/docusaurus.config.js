@@ -78,10 +78,8 @@ const config = {
         },
         items: [
           { to: '/blog', label: 'Blog', position: 'left'},
-          { to: '/videos', label: 'Videos', position: 'left'},
-          { to: '/cloud-skills', label: 'Challenge', position: 'left'},
-         /* { type: 'doc', docId: 'intro', position: 'left', label: 'Tutorials'},*/
-
+          { to: '/videos', label: 'Videos', position: 'right'},
+          { to: '/skills', label: 'Cloud Skills', position: 'right'},
           { to: '/roadmap', label: 'Roadmap', position: 'right'},
           { to: '/resources', label: 'Resources', position: 'right'},
           {
@@ -99,8 +97,6 @@ const config = {
               },
             ],
           },
-
-          /*{ to: '/contributors', label: 'Contributors', position: 'right'}, */
           {
             href: 'https://github.com/JulyOT/JulyOT',
             position: 'right',
