@@ -348,7 +348,7 @@ Tools to help in the migration has been built to automate some of the migration 
 
 Here is a view of the devices!
 
-[![device list](~/static/img/png/iot-device-list.png)](https://github.com/nanoframework/nanoFramework.IoT.Device#list-of-devices)
+[![device list](../static/img/png/iot-device-list.png)](https://github.com/nanoframework/nanoFramework.IoT.Device#list-of-devices)
 
 Each binding has its own sample. All is well organized and you'll find those in the `/devices/BindingName/samples` directory. And as an example, here is how you can use a BMP280:
 

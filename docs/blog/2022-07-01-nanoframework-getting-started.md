@@ -51,7 +51,7 @@ The project is supported by the .NET Foundation.
 
 You can watch this video from the Microsoft [IoT Show](https://aka.ms/iotshow) featuring .NET nanoFramework connected to Azure IoT Hub, measuring a [BMP280 sensors](https://docs.nanoframework.net/devices/Iot.Device.Bmxx80.Bmp280.html) and using the unique deep sleep feature from microcontrollers. A real life example with .NET nanoFramework:
 
-[![IoT Show](~/static/img/jpg/05716d799811c33d9d6bc54fd0cd0cff.jpg)](https://docs.microsoft.com/en-us/shows/internet-of-things-show/introduction-to-net-nanoframework)
+[![IoT Show](../static/img/jpg/05716d799811c33d9d6bc54fd0cd0cff.jpg)](https://docs.microsoft.com/en-us/shows/internet-of-things-show/introduction-to-net-nanoframework)
 
 ## Why use .NET nanoFramework?
 
