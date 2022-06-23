@@ -79,6 +79,7 @@ const config = {
         items: [
           { to: '/blog', label: 'Blog', position: 'left'},
           { to: '/videos', label: 'Videos', position: 'right'},
+          { to: '/livestreams', label: 'Live Streams', position: 'right'},
           { to: '/skills', label: 'Cloud Skills', position: 'right'},
           { to: '/roadmap', label: 'Roadmap', position: 'right'},
           { to: '/resources', label: 'Resources', position: 'right'},
