@@ -77,12 +77,17 @@ const config = {
           src: 'img/svg/julyot.svg',
         },
         items: [
-          { to: '/blog', label: 'Content', position: 'left'},
-          { type: 'doc', docId: 'intro', position: 'left', label: 'Tutorials'},
+          { to: '/blog', label: 'Blog', position: 'left'},
+          { to: '/videos', label: 'Videos', position: 'left'},
+          { to: '/cloud-skills', label: 'Challenge', position: 'left'},
+         /* { type: 'doc', docId: 'intro', position: 'left', label: 'Tutorials'},*/
+
+          { to: '/roadmap', label: 'Roadmap', position: 'right'},
+          { to: '/resources', label: 'Resources', position: 'right'},
           {
             type: 'dropdown',
             label: 'Archives',
-            position: 'left',
+            position: 'right',
             items: [
               {
                 label: '#JulyOT 2021',
@@ -95,9 +100,7 @@ const config = {
             ],
           },
 
-          { to: '/contributors', label: 'Contributors', position: 'right'},
-          { to: '/resources', label: 'Resources', position: 'right'},
-          { to: '/roadmap', label: 'Roadmap', position: 'right'},
+          /*{ to: '/contributors', label: 'Contributors', position: 'right'}, */
           {
             href: 'https://github.com/JulyOT/JulyOT',
             position: 'right',

@@ -1,17 +1,24 @@
-endi:
-  name: Endilie Yacop Sucipto
-  title: Maintainer of Docusaurus
-  url: https://github.com/endiliey
-  image_url: https://github.com/endiliey.png
 
-yangshun:
-  name: Yangshun Tay
-  title: Front End Engineer @ Facebook
-  url: https://github.com/yangshun
-  image_url: https://github.com/yangshun.png
+dave:
+  name: Dave Glover
+  title: Regional Cloud Advocate @Microsoft
+  url: https://github.com/gloveboxes
+  image_url: https://github.com/gloveboxes.png
 
-slorber:
-  name: Sébastien Lorber
-  title: Docusaurus maintainer
-  url: https://sebastienlorber.com
-  image_url: https://github.com/slorber.png
+jimb:
+  name: Jim Bob Bennett
+  title: Regional Cloud Advocate @Microsoft
+  url: https://github.com/jimbobbennett
+  image_url: https://github.com/jimbobbennett.png
+
+nitya:
+  name: Nitya Narasimhan
+  title: JS Cloud Advocate @Microsoft
+  url: https://github.com/nitya
+  image_url: https://github.com/nitya.png
+
+paul:
+  name: Paul De Carlo
+  title: Principal Cloud Advocate @Microsoft
+  url: https://github.com/toolboc
+  image_url: https://github.com/toolboc.png
