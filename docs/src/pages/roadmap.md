@@ -6,7 +6,7 @@
 
 ---
 
-:::note **IOT FOR BEGINNERS**
+:::note **IoT FOR BEGINNERS**
 Learn core concepts, terminology and technologies. <br/> **Track Lead: Jim Bennett**
 :::
 
@@ -15,7 +15,7 @@ Learn core concepts, terminology and technologies. <br/> **Track Lead: Jim Benne
  * Week 3:
  * Week 4:
 
-:::tip **EMBEDDED IOT**
+:::tip **EMBEDDED IoT**
 Get familiar with hardware platforms and end-to-end IoT solutions. <br/> **Track Lead: Dave Glover**
 :::
 
@@ -33,7 +33,7 @@ Train models in the cloud, deploy in edge devices for real-time insights. <br/> 
  * Week 3:
  * Week 4:
 
-:::info **IOT CERTIFICATION**
+:::info **IoT CERTIFICATION**
 Validate your understanding and get a resume-ready credential for your expertise. <br/> **Track Lead: Pamela Cortez**
 :::
 

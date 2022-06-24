@@ -1,7 +1,7 @@
 # Cloud Skills Challenge
 
 ---
-Want to become a subject matter in the IOT Domain? Take the [Microsoft Cloud Skills Challenge](https://developer.microsoft.com/en-us/offers/30-days-to-learn-it) - skill yourself up in 30 days and complete the Cloud Skills Challenge. You **might** be eligible for discounts on certification.
+Want to become a subject matter in the IoT Domain? Take the [Microsoft Cloud Skills Challenge](https://developer.microsoft.com/en-us/offers/30-days-to-learn-it) - skill yourself up in 30 days and complete the Cloud Skills Challenge. You **might** be eligible for discounts on certification.
 
 ![Cloud Skills Challenge](https://developer.microsoft.com/offers/img/img_white_awards.png)
 
