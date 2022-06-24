@@ -19,13 +19,13 @@ Connecting to Azure IoT is made fully transparent with a full library supporting
 
 In May 2022, the first [Azure Certified Device running .NET nanoFramework](https://www.nanoframework.net/palthree-board-becomes-azure-certified-device/) has been approved. This PalThtree device from OrgPal based on a STM32F7 MCU is the first one but certified as well the Azure library itself and also certified it IoT Plug and Play! This is one more proof that .NET nanoFramework is a ready for production solution.
 
-We'll detail all this a bit more below as well. But let's see as well other aspects like **SLL**, **HTTPS**, the .NET **nanoFramework WebServer**, **WebSocket**, even **SignalR**, the support of **MQTT** including MQTT v5.0, * [AMQP](https://github.com/nanoframework/amqpnetlite), [TcpClient](https://github.com/nanoframework/System.Net.Sockets.TcpClient), [UdpClient](https://github.com/nanoframework/System.Net.Sockets.UdpClient) and we'll focus again on Azure IoT in a more detailed way.
+We'll detail all this a bit more below as well. But let's see as well other aspects like **TLS**, **HTTPS**, the .NET **nanoFramework WebServer**, **WebSocket**, even **SignalR**, the support of **MQTT** including MQTT v5.0, * [AMQP](https://github.com/nanoframework/amqpnetlite), [TcpClient](https://github.com/nanoframework/System.Net.Sockets.TcpClient), [UdpClient](https://github.com/nanoframework/System.Net.Sockets.UdpClient) and we'll focus again on Azure IoT in a more detailed way.
 
-## SSL and HTTPS
+## TLS and HTTPS
 
-SSL and of course HTTPS are supported. You will find examples in our [sample repository](https://github.com/nanoframework/Samples/tree/main/samples/HTTP). A full sample pack is waiting for you with basic usage, using `WebRequest`, using a `HttpListener` as well as example on how to do raw Azure Get and Post if you are willing to use some of the Azure API.
+TLS and, of course, secure HTTP are supported. You will find examples in our [sample repository](https://github.com/nanoframework/Samples/tree/main/samples/HTTP). A full sample pack is waiting for you with basic usage, using `WebRequest`, using a `HttpListener` as well as example on how to do raw Azure Get and Post if you are willing to use some of the Azure API.
 
-We do have as well a HttpClient calling REST services. This is a very handy recent addition. And it just works as expected like for the full .NET. You'll find the source in the .NET nanoFramework [System.Net.Http](https://github.com/nanoframework/System.Net.Http) repository.
+We do have as well HttpClient which is very convinient for example to call REST services. This is a very handy and recent addition. And it just works as expected like for the full .NET. You'll find the source in the .NET nanoFramework [System.Net.Http](https://github.com/nanoframework/System.Net.Http) repository.
 
 `HttpClient` makes it very easy to connect and consume REST services.
 In order to use it, one has to create the object and them perform the calls. Note that `HttpClient` is meant to be reused throughout the application lifecycle. There is no need to create a new instance every time a call has to be performed. Like this:
@@ -1046,7 +1046,7 @@ One of the advantages of MCU is their low consumption and ability to deep sleep 
 
 ## Conclusion
 
-In this (long) article, we managed to convince you that you have **all** what you need to connect your MCU using .NET nanoFramework to almost anything! As a recap, here are the repositories related to networking in .NET nanoFramework:
+In this (long) article, we hope to have managed to demonstrate that you have **all** what you need to connect your MCU using .NET nanoFramework to almost anything! As a recap, here are the repositories related to networking in .NET nanoFramework:
 
 * [TcpClient](https://github.com/nanoframework/System.Net.Sockets.TcpClient),
 * [UdpClient](https://github.com/nanoframework/System.Net.Sockets.UdpClient),
