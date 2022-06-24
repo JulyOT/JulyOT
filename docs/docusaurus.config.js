@@ -170,6 +170,9 @@ const config = {
         textColor: '#7EE2FB',
         isCloseable: false,
       },
+      clarity: {
+        ID: "chk0ns2za1",
+      },
     }),
   // CONFIG-END #3: Theme
  
@@ -184,8 +187,9 @@ const config = {
         min: 640, // min resized image's size. 
         steps: 2, // #images b/w min and max (inclusive)
         disableInDev: false,
-      },
+      }
     ],
+    'docusaurus-plugin-clarity',
   ],
   // CONFIG-END #4: Plugins  
 };
