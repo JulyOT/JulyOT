@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://JulyOT.github.io/blog</id>
+    <id>https://JulyOT.dev/blog</id>
     <title>#JulyOT Blog</title>
     <updated>2022-06-23T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://JulyOT.github.io/blog"/>
+    <link rel="alternate" href="https://JulyOT.dev/blog"/>
     <subtitle>#JulyOT Blog</subtitle>
-    <icon>https://JulyOT.github.io/img/favicon.ico</icon>
+    <icon>https://JulyOT.dev/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[#JulyOT Is Coming!]]></title>
         <id>julyot-teaser</id>
-        <link href="https://JulyOT.github.io/blog/julyot-teaser"/>
+        <link href="https://JulyOT.dev/blog/julyot-teaser"/>
         <updated>2022-06-23T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Animated JulyOT logo]]></summary>
         <content type="html"><![CDATA[<p><img loading="lazy" alt="Animated JulyOT logo" src="/assets/images/julyot-single-loop-ba379e340a5963a2448fb21a1842c673.gif" width="480" height="270" class="img_ev3q"></p><p>We can't believe it's already the last week of June!! Wait - you know what that means right?</p><p>Clear up your cables, dust off your Raspberry Pi, dig our your Arduino board, fire up Visual Studio Code with PlatformIO, or the Arduino IDE, and login to the cloud! It's almost time to celebrate the Internet of Things, one thing at a time!</p><p>As always #JulyOT will be kicking off on the 1st July, and every day we will be bringing you some awesome IoT content to get you excited about the Internet of Things.</p><p>We'll have a mix of live streams, videos, blog posts and code samples, all grouped into the following themes:</p><ul><li>Beginners, makers, and students</li><li>Embedded development</li><li>AI on the Edge</li><li>Learning and certifications</li></ul><p>We invite everyone to build and share your creations throughout month as you gain knowledge from these and other resources throughout #JulyOT!  Be sure to spread the word about this initiative and your own projects by sharing the hashtag #JulyOT on social media! We'll be sharing our favorite projects that we find.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="microsoft-cloud-skills-challenge">Microsoft Cloud Skills challenge<a class="hash-link" href="#microsoft-cloud-skills-challenge" title="Direct link to heading">​</a></h2><p><img loading="lazy" alt="A cartoon racoon holding medals" src="/assets/images/image_medals-cb4e42548a6345130e3aca09f2968f3d.svg" width="151" height="168" class="img_ev3q"></p><p>As part of #JulyOT we will be running a Microsoft Cloud Skills challenge, giving you a guided path to learn the Microsoft IoT stack, and compete in your learning against others. Details will be announced on the 1st July!</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="julyot-digital-swag">JulyOT digital swag<a class="hash-link" href="#julyot-digital-swag" title="Direct link to heading">​</a></h2><p>This year we also have <a href="/digitalswag">#JulyOT digital swag</a>! Get a new desktop background, or a background for your favorite video chat tool like Microsoft Teams.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="iot-resources">IoT resources<a class="hash-link" href="#iot-resources" title="Direct link to heading">​</a></h2><p>For more IoT resources, check out the <a href="/resources">resources link</a> above. Whether you want videos to help you learn, or beginner tutorials, we have you covered.</p>]]></content>

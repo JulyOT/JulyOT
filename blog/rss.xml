@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>#JulyOT Blog</title>
-        <link>https://JulyOT.github.io/blog</link>
+        <link>https://JulyOT.dev/blog</link>
         <description>#JulyOT Blog</description>
         <lastBuildDate>Thu, 23 Jun 2022 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
@@ -10,7 +10,7 @@
         <language>en</language>
         <item>
             <title><![CDATA[#JulyOT Is Coming!]]></title>
-            <link>https://JulyOT.github.io/blog/julyot-teaser</link>
+            <link>https://JulyOT.dev/blog/julyot-teaser</link>
             <guid>julyot-teaser</guid>
             <pubDate>Thu, 23 Jun 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[Animated JulyOT logo]]></description>
