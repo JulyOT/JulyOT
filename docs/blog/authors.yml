@@ -1,27 +1,39 @@
 
+amira:
+  name: Amira Youssef
+  title: Principal PM Manager @Microsoft
+  url: https://github.com/Amiyouss
+  image_url: hhttps://pbs.twimg.com/profile_images/1426589231422480385/OzZty9cq_400x400.jpg
+
+bruno:
+  name: Bruno Capuano
+  title: Senior Regional Cloud Advocate @Microsoft
+  url: https://github.com/elbruno
+  image_url: https://github.com/elbruno.png
+
+cliff:
+  name: Cliff Agius
+  title: Freelance mobile and IoT developer, 787 pilot
+  url: https://github.com/CliffAgius
+  image_url: https://github.com/CliffAgius.png
+
 dave:
   name: Dave Glover
-  title: Regional Cloud Advocate @Microsoft
+  title: Senior Cloud Advocate @Microsoft
   url: https://github.com/gloveboxes
   image_url: https://github.com/gloveboxes.png
+
+diana:
+  name: Diana Phillips
+  title: Principal Cloud Solution Architect @Microsoft
+  url: https://github.com/UtahITPro
+  image_url: https://pbs.twimg.com/profile_images/705426782762045440/sJC4hb1N_400x400.jpg
 
 jimb:
   name: Jim Bennett
   title: Senior Regional Cloud Advocate @Microsoft
   url: https://github.com/jimbobbennett
   image_url: https://github.com/jimbobbennett.png
-
-nitya:
-  name: Nitya Narasimhan
-  title: JS Cloud Advocate @Microsoft
-  url: https://github.com/nitya
-  image_url: https://github.com/nitya.png
-
-paul:
-  name: Paul De Carlo
-  title: Principal Cloud Advocate @Microsoft
-  url: https://github.com/toolboc
-  image_url: https://github.com/toolboc.png
 
 laurent:
   name: Laurent Ellerbach
@@ -35,15 +47,26 @@ neo:
   url: https://github.com/xiongyu0523
   image_url: https://github.com/xiongyu0523.png
 
-cliff:
-  name: Cliff Agius
-  title: Freelance mobile and IoT developer, 787 pilot
-  url: https://github.com/CliffAgius
-  image_url: https://github.com/CliffAgius.png
+nitya:
+  name: Nitya Narasimhan
+  title: JS Cloud Advocate @Microsoft
+  url: https://github.com/nitya
+  image_url: https://github.com/nitya.png
+
+olivier:
+  name: Olivier Bloch
+  title: Principal Program Manager @Microsoft
+  url: https://github.com/olivierbloch
+  image_url: https://github.com/olivierbloch.png
+
+paul:
+  name: Paul De Carlo
+  title: Principal Cloud Advocate @Microsoft
+  url: https://github.com/toolboc
+  image_url: https://github.com/toolboc.png
 
 vanessa:
   name: Vanessa Villa
   title: Program Manager II @Microsoft
   url: https://github.com/vavilla
   image_url: https://github.com/vavilla.png
-
