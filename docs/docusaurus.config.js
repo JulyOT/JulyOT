@@ -70,6 +70,7 @@ const config = {
         minHeadingLevel: 2,
         maxHeadingLevel: 3,
       },
+      image: 'img/svg/julyot.svg',
       navbar: {
         title: '#JulyOT',
         logo: {
