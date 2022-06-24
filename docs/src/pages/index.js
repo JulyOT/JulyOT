@@ -30,8 +30,8 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      title={`Welcomd to ${siteConfig.title}`}
+      description="Welcome to #JulyOT 2022! Celebrate 31 days of IoT">
       <HomepageHeader />
       <main>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
