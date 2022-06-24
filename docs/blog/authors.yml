@@ -22,3 +22,28 @@ paul:
   title: Principal Cloud Advocate @Microsoft
   url: https://github.com/toolboc
   image_url: https://github.com/toolboc.png
+
+laurent:
+  name: Laurent Ellerbach
+  title: Principal Engineering Manager @Microsoft
+  url: https://github.com/ellerbach
+  image_url: https://github.com/ellerbach.png
+
+neo:
+  name: Neo Xiong
+  title: Senior Technical Specialist @Microsoft
+  url: https://github.com/xiongyu0523
+  image_url: https://github.com/xiongyu0523.png
+
+cliff:
+  name: Cliff Agius
+  title: Freelance mobile and IoT developer, 787 pilot
+  url: https://github.com/CliffAgius
+  image_url: https://github.com/CliffAgius.png
+
+vanessa:
+  name: Vanessa Villa
+  title: Program Manager II @Microsoft
+  url: https://github.com/vavilla
+  image_url: https://github.com/vavilla.png
+
