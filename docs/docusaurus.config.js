@@ -83,6 +83,7 @@ const config = {
           { to: '/skills', label: 'Cloud Skills', position: 'right'},
           { to: '/roadmap', label: 'Roadmap', position: 'right'},
           { to: '/resources', label: 'Resources', position: 'right'},
+          { to: '/digitalswag', label: 'Digital Swag', position: 'right'},
           {
             type: 'dropdown',
             label: 'Archives',
