@@ -70,7 +70,7 @@ const config = {
         minHeadingLevel: 2,
         maxHeadingLevel: 3,
       },
-      image: 'img/svg/julyot.svg',
+      metadata: [{name: 'twitter:card', content: '#JulyOT 2022! 31 days of IoT content'}],
       navbar: {
         title: '#JulyOT',
         logo: {
