@@ -28,6 +28,7 @@ const config = {
   },
 
   // CONFIG-START #2: Presets
+
   presets: [
     [
       'classic',
@@ -44,7 +45,7 @@ const config = {
           postsPerPage: 1,
         },
         gtag: {
-          trackingID: 'G-xxxxxxxx', /* TO-DO: Add G-xxxxxx id*/
+          trackingID: 'G-4LCHFKPDVJ', /* TO-DO: Add G-xxxxxx id*/
           anonymizeIP: true,
         },
         sitemap: {
