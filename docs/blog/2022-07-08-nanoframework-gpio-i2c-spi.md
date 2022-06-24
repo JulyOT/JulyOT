@@ -9,7 +9,7 @@ tags: [dotnet, nanoframework]
 
 # GPIO, I2C, SPI, PWM, ADC, DAC, Serial and more!
 
-.NET nanoFramework has support for GPIO, I2C, SPI, PWM, ADC, DAC, Serial, OneWire. Also the API are aligned with [.NET IoT](https://github.com/dotnet/iot/) making it easy for code reuse between development on a Raspberry Pi with .NET 6.0 and an MCU running .NET nanoFramework.
+.NET nanoFramework has support for GPIO, I2C, SPI, PWM, ADC, DAC, Serial, 1-Wire. Also the API are aligned with [.NET IoT](https://github.com/dotnet/iot/) making it easy for code reuse between development on a Raspberry Pi with .NET 6.0 and an MCU running .NET nanoFramework.
 
 A comparison on how to reuse code and differences between .NET IoT and .NET nanoFramework is available [here](https://github.com/dotnet/samples/tree/main/iot/dotnet-iot-and-nanoframework).
 
@@ -336,11 +336,11 @@ Here are dedicated classes with detailed classes documentation and samples for e
 
     Check out the [1-Wire sample](https://github.com/nanoframework/Samples/blob/main/samples/1-Wire).
 
-> Note: devices have a different way to name pins and to set them up. It is important to check the default configuration especially for any STM32 devices. ESP32 devices can be setup dynamically. A nuget is available for this [nanoFramework.Hardware.Esp32](https://github.com/nanoframework/nanoFramework.Hardware.Esp32). In that case, you would have to setup pins if they are not matching your [defaults ones](https://docs.nanoframework.net/content/esp32/esp32_pin_out.html).
+> Note: devices have a different way to name pins and to set them up. It is important to check the default configuration especially for any STM32 devices. ESP32 devices can be setup dynamically. A NuGet package is available for this [nanoFramework.Hardware.Esp32](https://github.com/nanoframework/nanoFramework.Hardware.Esp32). In that case, you would have to setup pins if they are not matching your [defaults ones](https://docs.nanoframework.net/content/esp32/esp32_pin_out.html).
 
 ## IoT Repository and advance bindings
 
-The alignment between .NET IoT and .NET nanoFramework allows code reuse between the different platforms. While it's not technically possible to have the exact same nuget for both as the platforms are different, reusing API and code is possible. A lot of work and effort has been put in place to facilitate the creation of individual nuget for almost each of the .NET IoT bindings! The [IoT Device repository](https://github.com/nanoframework/nanoFramework.IoT.Device) contains all the tools and the code for all the available bindings.
+The alignment between .NET IoT and .NET nanoFramework allows code reuse between the different platforms. While it's not technically possible to have the exact same NuGet for both as the platforms are different, reusing API and code is possible. A lot of work and effort has been put in place to facilitate the creation of individual NuGet packages for almost each of the .NET IoT bindings! The [IoT Device repository](https://github.com/nanoframework/nanoFramework.IoT.Device) contains all the tools and the code for all the available bindings.
 
 .NET nanoFramework does not have *yet* Generics and does not neither have Linq and some other compromise had to be done to fit into those very little MCU. [This page](https://docs.nanoframework.net/content/architecture/simplifications-and-trade-offs.html) explains most of them.
 
@@ -368,8 +368,8 @@ i2CBmp280.PressureSampling = Sampling.UltraHighResolution;
 var readResult = i2CBmp280.Read();
 
 // Print out the measured data
-Debug.WriteLine($"Temperature: {readResult.Temperature?.DegreesCelsius:0.#}\u00B0C");
-Debug.WriteLine($"Pressure: {readResult.Pressure?.Hectopascals:0.##}hPa");
+Debug.WriteLine($"Temperature: {readResult.Temperature?.DegreesCelsius:N1}\u00B0C");
+Debug.WriteLine($"Pressure: {readResult.Pressure?.Hectopascals:N2}hPa");
 ```
 
-You will note as well the usage of [UnitsNet](https://github.com/angularsen/UnitsNet). We've atomized the most popular ones and provide them as nuget. They are used to facilitate any unit conversion. So you don't need to think if you have to provide a temperature as a Celsius or a Fahrenheit. It's just a temperature, the end developer will just choose the unit to display. The rest of the magic is done for you.
+You will note as well the usage of [UnitsNet](https://github.com/angularsen/UnitsNet). We've atomized the most popular ones and provide them as NuGet packages. They are used to facilitate any unit conversion. So you don't need to think if you have to provide a temperature as a Celsius or a Fahrenheit. It's just a temperature, the end developer will just choose the unit to display. The rest of the magic is done for you.
