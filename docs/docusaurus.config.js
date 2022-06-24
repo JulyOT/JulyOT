@@ -13,7 +13,7 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // --- CONFIG-START #1: GitHub Pages
-  url: 'https://JulyOT.github.io',
+  url: 'https://JulyOT.dev',
   baseUrl: '/',
   projectName: 'JulyOT',
   organizationName: 'JulyOT',
