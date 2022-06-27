@@ -13,8 +13,8 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // --- CONFIG-START #1: GitHub Pages
-  url: 'https://JulyOT.github.io',
-  baseUrl: '/JulyOT/',
+  url: 'https://JulyOT.dev',
+  baseUrl: '/',
   projectName: 'JulyOT',
   organizationName: 'JulyOT',
   trailingSlash: false,
@@ -28,6 +28,7 @@ const config = {
   },
 
   // CONFIG-START #2: Presets
+
   presets: [
     [
       'classic',
@@ -44,7 +45,7 @@ const config = {
           postsPerPage: 1,
         },
         gtag: {
-          trackingID: 'G-xxxxxxxx', /* TO-DO: Add G-xxxxxx id*/
+          trackingID: 'G-4LCHFKPDVJ', /* TO-DO: Add G-xxxxxx id*/
           anonymizeIP: true,
         },
         sitemap: {
@@ -70,6 +71,7 @@ const config = {
         minHeadingLevel: 2,
         maxHeadingLevel: 3,
       },
+      image: 'img/png/julyot-card.png',
       navbar: {
         title: '#JulyOT',
         logo: {
@@ -77,12 +79,17 @@ const config = {
           src: 'img/svg/julyot.svg',
         },
         items: [
-          { to: '/blog', label: 'Content', position: 'left'},
-          { type: 'doc', docId: 'intro', position: 'left', label: 'Tutorials'},
+          { to: '/blog', label: 'Blog', position: 'left'},
+          { to: '/videos', label: 'Videos', position: 'right'},
+          { to: '/livestreams', label: 'Live Streams', position: 'right'},
+          { to: '/skills', label: 'Cloud Skills', position: 'right'},
+          { to: '/roadmap', label: 'Roadmap', position: 'right'},
+          { to: '/resources', label: 'Resources', position: 'right'},
+          { to: '/digitalswag', label: 'Digital Swag', position: 'right'},
           {
             type: 'dropdown',
             label: 'Archives',
-            position: 'left',
+            position: 'right',
             items: [
               {
                 label: '#JulyOT 2021',
@@ -94,10 +101,6 @@ const config = {
               },
             ],
           },
-
-          { to: '/contributors', label: 'Contributors', position: 'right'},
-          { to: '/resources', label: 'Resources', position: 'right'},
-          { to: '/roadmap', label: 'Roadmap', position: 'right'},
           {
             href: 'https://github.com/JulyOT/JulyOT',
             position: 'right',
@@ -167,6 +170,9 @@ const config = {
         textColor: '#7EE2FB',
         isCloseable: false,
       },
+      clarity: {
+        ID: "chk0ns2za1",
+      },
     }),
   // CONFIG-END #3: Theme
  
@@ -181,8 +187,9 @@ const config = {
         min: 640, // min resized image's size. 
         steps: 2, // #images b/w min and max (inclusive)
         disableInDev: false,
-      },
+      }
     ],
+    'docusaurus-plugin-clarity',
   ],
   // CONFIG-END #4: Plugins  
 };

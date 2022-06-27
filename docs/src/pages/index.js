@@ -8,7 +8,7 @@ import styles from './index.module.css';
 
 // Import banner
 import Image from '@theme/IdealImage';
-import roadmap from './../../static/img/png/banner-a.png';
+import roadmap from './../../static/img/gif/julyot.gif';
 
 
 function HomepageHeader() {
@@ -30,11 +30,10 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      title={`Welcome to ${siteConfig.title}`}
+      description="Welcome to #JulyOT 2022! Celebrate 31 days of IoT">
       <HomepageHeader />
       <main>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
         <HomepageFeatures />
       </main>
     </Layout>

@@ -8,7 +8,7 @@ const FeatureList = [
     Svg: require('@site/static/img/svg/landing-beginner.svg').default,
     description: (
       <>
-        fill in stuff here....
+        Learn the fundamental concepts, terminology and technologies required to develop for the Internet of Things.
       </>
     ),
   },
@@ -17,7 +17,7 @@ const FeatureList = [
     Svg: require('@site/static/img/svg/landing-edge.svg').default,
     description: (
       <>
-      fill in stuff here....
+      Train AI models in the cloud, then deploy them on capable edge devices to gain real-time insights even if disconnected.
       </>
     ),
   },
@@ -26,7 +26,7 @@ const FeatureList = [
     Svg: require('@site/static/img/svg/landing-cert.svg').default,
     description: (
       <>
-      fill in stuff here....
+      Validate and showcase your expertise in IoT technologies and solutions with industry-recognized professional credentials.
       </>
     ),
   },
