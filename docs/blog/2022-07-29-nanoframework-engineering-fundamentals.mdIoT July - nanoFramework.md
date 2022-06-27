@@ -2,7 +2,7 @@
 slug: nanoframework-engineering-fundamentals
 title: .NET nanoFramework Engineering Fundamentals
 authors:
-  name: Ellerbach
+  name: laurent
   name: josesimoes
 tags: [dotnet, nanoframework]
 ---

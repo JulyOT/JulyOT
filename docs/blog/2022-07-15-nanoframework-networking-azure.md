@@ -2,7 +2,7 @@
 slug: nanoframework-gpio-i2c-spi
 title: .NET nanoFramework networking and Azure
 authors:
-  name: Ellerbach
+  name: laurent
   name: josesimoes
 tags: [dotnet, nanoframework]
 ---

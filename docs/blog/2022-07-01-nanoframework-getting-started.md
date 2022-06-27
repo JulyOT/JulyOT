@@ -2,7 +2,7 @@
 slug: nanoframework-getting-started
 title: .NET nanoFramework Getting Started
 authors:
-  name: Ellerbach
+  name: laurent
   name: josesimoes
 tags: [dotnet, nanoframework]
 ---

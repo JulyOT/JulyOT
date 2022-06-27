@@ -2,7 +2,7 @@
 slug: nanoframework-gpio-i2c-spi
 title: .NET nanoFramework GPIO, I2C, SPI and other IO support
 authors:
-  name: Ellerbach
+  name: laurent
   name: josesimoes
 tags: [dotnet, nanoframework]
 ---
