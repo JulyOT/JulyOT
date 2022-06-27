@@ -403,7 +403,7 @@ using (WebServer server = new WebServer(443, HttpProtocol.Https)
 
 > IMPORTANT: because the certificate above is not issued by a Certificate Authority it won't be recognized as a valid certificate. If you want to access the nanoFramework device with your browser, for example, you'll have to add the (CRT file)[WebServer.Sample\webserver-cert.crt] as a trusted one. On Windows, you just have to double click on the CRT file and then click "Install Certificate...".
 
-You can of course use the routes as defined earlier. Both will work, event or route with the notion of controller.
+You can use event or controller or both. Anything that has been explained before without HTTPS will also work with HTTPS.
 
 ## MQTT loves .NET nanoFramework!
 
