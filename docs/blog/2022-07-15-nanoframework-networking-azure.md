@@ -9,32 +9,32 @@ tags: [dotnet, nanoframework]
 
 # Networking and Azure
 
-.NET nanoFramework offers native secured network capabilities. They may be dependent of the MCU and associated hardware but if there is an ethernet adaptor or a Wi-Fi module, except if they are extremely exotic, they'll be supported! For example, ESP32 offers native Wi-Fi connectivity allowing to securely connect to a Wi-Fi network and securely as well to Azure. All certificates to authenticate servers and devices are supported making the connection secured from end to end using the underlying TLS/SSL.
+.NET nanoFramework offers native secured network capabilities. They may be dependent on the MCU and associated hardware but if there is an ethernet adaptor or a Wi-Fi module, except if they are extremely exotic, they'll be supported! For example, ESP32 offers native Wi-Fi connectivity allowing to securely connect to a Wi-Fi network and securely as well to Azure. All certificates to authenticate servers and devices are supported making the connection secured from end to end using the underlying TLS/SSL.
 
-As an illustration, IoT Show demonstrating the capability to [connect to Azure IoT](https://www.youtube.com/watch?v=pxXgU3XcRr4&t=5s).
+As an illustration, IoT Show demonstrates the capability to [connect to Azure IoT](https://www.youtube.com/watch?v=pxXgU3XcRr4&t=5s).
 
 Connecting to Azure IoT is made fully transparent with a full library supporting Device Provisioning Services (DPS), SAS token and certificate authentication, Cloud to Device (C2D) messages, Device to Cloud (D2C) messages, remote function calls, twins, for clients and modules! And we do not forget the IoT Plug & Play full support! [Check it yourself](https://github.com/nanoframework/nanoFramework.Azure.Devices).
 
 ### New: first .NET nanoFramework Azure Certified Device
 
-In May 2022, the first [Azure Certified Device running .NET nanoFramework](https://www.nanoframework.net/palthree-board-becomes-azure-certified-device/) has been approved. This PalThtree device from OrgPal based on a STM32F7 MCU is the first one but certified as well the Azure library itself and also certified it IoT Plug and Play! This is one more proof that .NET nanoFramework is a ready for production solution.
+In May 2022, the first [Azure Certified Device running .NET nanoFramework](https://www.nanoframework.net/palthree-board-becomes-azure-certified-device/) has been approved. The PalThree device from OrgPal based on an STM32F7 MCU is the first one but certified as well the Azure library itself and also certified it IoT Plug and Play! This is one more proof that .NET nanoFramework is ready for production.
 
 We'll detail all this a bit more below as well. But let's see as well other aspects like **TLS**, **HTTPS**, the .NET **nanoFramework WebServer**, **WebSocket**, even **SignalR**, the support of **MQTT** including MQTT v5.0, * [AMQP](https://github.com/nanoframework/amqpnetlite), [TcpClient](https://github.com/nanoframework/System.Net.Sockets.TcpClient), [UdpClient](https://github.com/nanoframework/System.Net.Sockets.UdpClient) and we'll focus again on Azure IoT in a more detailed way.
 
 ## TLS and HTTPS
 
-TLS and, of course, secure HTTP are supported. You will find examples in our [sample repository](https://github.com/nanoframework/Samples/tree/main/samples/HTTP). A full sample pack is waiting for you with basic usage, using `WebRequest`, using a `HttpListener` as well as example on how to do raw Azure Get and Post if you are willing to use some of the Azure API.
+TLS and, of course, secure HTTP is supported. You will find examples in our [sample repository](https://github.com/nanoframework/Samples/tree/main/samples/HTTP). A full sample pack is waiting for you with basic usage, using `WebRequest`, using a `HttpListener` as well as an example on how to do raw Azure Get and Post if you are willing to use some of the Azure API.
 
-We do have as well HttpClient which is very convinient for example to call REST services. This is a very handy and recent addition. And it just works as expected like for the full .NET. You'll find the source in the .NET nanoFramework [System.Net.Http](https://github.com/nanoframework/System.Net.Http) repository.
+We do have as well HttpClient which is very convenient for example to call REST services. This is a very handy and recent addition. And it just works as expected like for the full .NET. You'll find the source in the .NET nanoFramework [System.Net.Http](https://github.com/nanoframework/System.Net.Http) repository.
 
 `HttpClient` makes it very easy to connect and consume REST services.
-In order to use it, one has to create the object and them perform the calls. Note that `HttpClient` is meant to be reused throughout the application lifecycle. There is no need to create a new instance every time a call has to be performed. Like this:
+In order to use it, one has to create the object and then perform the calls. Note that `HttpClient` is meant to be reused throughout the application lifecycle. There is no need to create a new instance every time a call has to be performed. Like this:
 
 ```csharp
 static readonly HttpClient _httpClient = new HttpClient();
 ```
 
-To pass the CA root certificate allowing to validate the secure server certificate.
+To pass the CA root certificate to validate the secure server certificate.
 The CA root cert can also come from a binary file or text file from a resource.
 
 ```csharp
@@ -71,7 +71,7 @@ It's possible to add HTTP headers that will be sent along with each request.
 _httpClient.DefaultRequestHeaders.Add("x-ms-blob-type", "BlockBlob");
 ```
 
-### Perform a HTTP GET request
+### Perform an HTTP GET request
 
 Here's a example of a HTTP request to read some content as a string:
 
@@ -98,9 +98,9 @@ The above call would return something similar to the following, which can be out
 
 Note the call to `response.EnsureSuccessStatusCode();`. This will throw an `HttpRequestException` in case the status code from the HTTP request is not a successful one.
 
-### Perform a HTTP POST request
+### Perform an HTTP POST request
 
-Follows an example of a HTTP request performing POST request to send some json content to an endpoint.
+Following is an example of an HTTP request performing a POST request to send some JSON content to an endpoint.
 
 ```csharp
 var content = new StringContent("{\"someProperty\":\"someValue\"}", Encoding.UTF8, "application/json");
@@ -108,7 +108,7 @@ var result = _httpClient.Post("https://httpbin.org/anything", content);
 result.EnsureSuccessStatusCode();
 ```
 
-Worth noting that the json content above it's presented as a simple string to simplify the code. There is a [json library](https://github.com/nanoframework/nanoFramework.Json) available to help with serializing and deserializing from/to C# classes, even the most complex ones.
+Worth noting that the JSON content above it's presented as a simple string to simplify the code. There is a [json library](https://github.com/nanoframework/nanoFramework.Json) available to help with serializing and deserializing from/to C# classes, even the most complex ones.
 
 Again, note the call to `response.EnsureSuccessStatusCode();` to make sure the HTTP request was successfully performed.
 
@@ -126,14 +126,14 @@ response.Content.ReadAsStream().CopyTo(fs);
 
 ### Debugging through a reverse proxy
 
-When code is deployed to a MCU it might be desirable to let the device connect to your development machine running IIS Express.
+When code is deployed to an MCU it might be desirable to let the device connect to your development machine running IIS Express.
 This can be achieved with a proxy such as [this one](https://www.npmjs.com/package/iisexpress-proxy).
 Be aware that this leads to SocketExceptions with the current version of **nanoFramework** System.Net.Http when sending consecutive
 requests to your development machine. A simple retry mechanism in Debug mode will get around this.
 
 ## WebServer: almost like in the full ASP.NET
 
-The title is correct, we kept the core ideas of the full ASP.NET framework, we shrink everything to as small as possible, get rid of a lot of things but at the end, we have a notion of controller, security authentication and all used with attribute decoration. You'll find the source in the .NET nanoFramework [WebServer](https://github.com/nanoframework/nanoFramework.WebServer) repository. Some of those features include:
+The title is correct, we kept the core ideas of the full ASP.NET framework. We shrink everything possible, and got rid of a lot of things but kept the notion of a controller, security authentication and all used with attribute decoration. You'll find the source in the .NET nanoFramework [WebServer](https://github.com/nanoframework/nanoFramework.WebServer) repository. Some of those features include:
 
 - Handle multi-thread requests
 - Serve static files on any storage
@@ -147,10 +147,10 @@ The title is correct, we kept the core ideas of the full ASP.NET framework, we s
 - HTTPS support
 - [URL decode/encode](https://github.com/nanoframework/lib-nanoFramework.System.Net.Http/blob/develop/nanoFramework.System.Net.Http/Http/System.Net.HttpUtility.cs)
 
-On the of the main limitations:
+The main limitations are:
 
-- Does not support any zip in the request or response stream
-- No dependency injection build in but this is coming and in private preview for the moment
+- No  support for any zip in the request or response stream
+- No built-in dependency injection. This is coming and in private preview for the moment
 
 ### Usage
 
@@ -169,7 +169,7 @@ using (WebServer server = new WebServer(80, HttpProtocol.Http)
 }
 ```
 
-You can as well pass a controller where you can use decoration for the routes and method supported.
+You can as well pass a controller where you can use decoration for the routes and methods supported.
 
 ```csharp
 using (WebServer server = new WebServer(80, HttpProtocol.Http, new Type[] { typeof(ControllerPerson), typeof(ControllerTest) }))
@@ -183,7 +183,7 @@ using (WebServer server = new WebServer(80, HttpProtocol.Http, new Type[] { type
 
 In this case, you're passing 2 classes where you have public methods decorated which will be called every time the route is found.
 
-With the previous example, a very simple and straight forward Test controller will look like that:
+With the previous example, a straightforward Test controller will look like that:
 
 ```csharp
 public class ControllerTest
@@ -206,15 +206,15 @@ public class ControllerTest
 }
 ```
 
-In this example, the `RoutePostTest` will be called every time the called url will be `test` or `Test2` or `tEst42` or `TEST`, the url can be with parameters and the method GET. Be aware that `Test` won't call the function, neither `test/`.
+In this example, the `RoutePostTest` will be called every time the called URL will be `test` or `Test2` or `tEst42` or `TEST`. The URL can be with parameters and the method GET. Be aware that `Test` won't call the function, neither `test/`.
 
-The `RouteAnyTest`is called whenever the url is `test/any` whatever the method is.
+The `RouteAnyTest`is called whenever the URL is `test/any` whatever the method is.
 
-There is a more advance example with simple REST API to get a list of Person and add a Person. Check it in the [sample](https://github.com/nanoframework/Samples/blob/main/samples/Webserver/WebServer.Sample/ControllerPerson.cs).
+There is a more advanced example with a simple REST API to get a list of Person and add a Person. Check it in the [sample](https://github.com/nanoframework/Samples/blob/main/samples/Webserver/WebServer.Sample/ControllerPerson.cs).
 
 >> **Important**: 
-> * By default the routes are not case sensitive and the attribute **must** be lowercase
-> * If you want to use case sensitive routes like in the previous example, use the attribute `CaseSensitive`. As in the previous example, you **must** write the route as you want it to be responded to.
+> * By default, the routes are not case sensitive and the attribute **must** be lowercase
+> * If you want to use case-sensitive routes like in the previous example, use the attribute `CaseSensitive`. As in the previous example, you **must** write the route as you want it to be responded to.
 
 And you can pass default credentials to the server:
 
@@ -355,7 +355,7 @@ if (url.ToLower().IndexOf("/api/") == 0)
 
 This API example is basic but as you get the method, you can choose what to do.
 
-As you get the url, you can check for a specific controller called. And you have the parameters and the content payload!
+As you get the URL, you can check for a specific controller called. And you have the parameters and the content payload!
 
 Example of a result with call:
 
@@ -401,13 +401,13 @@ using (WebServer server = new WebServer(443, HttpProtocol.Https)
 }
 ```
 
-> IMPORTANT: because the certificate above is not issued from a Certificate Authority it won't be recognized as a valid certificate. If you want to access the nanoFramework device with your browser, for example, you'll have to add the (CRT file)[WebServer.Sample\webserver-cert.crt] as a trusted one. On Windows, you just have to double click on the CRT file and then click "Install Certificate...".
+> IMPORTANT: because the certificate above is not issued by a Certificate Authority it won't be recognized as a valid certificate. If you want to access the nanoFramework device with your browser, for example, you'll have to add the (CRT file)[WebServer.Sample\webserver-cert.crt] as a trusted one. On Windows, you just have to double click on the CRT file and then click "Install Certificate...".
 
 You can of course use the routes as defined earlier. Both will work, event or route with the notion of controller.
 
 ## MQTT loves .NET nanoFramework!
 
-MQTT is supported as a client in .NET nanoFramework. You'll find the source in the .NET nanoFramework [MQTT](https://github.com/nanoframework/nanoFramework.m2mqtt) repository. The usage is globally the same whatever version is used, 3.1, 3.1.1 and 5.0 are supported. There are some specificities between v3.1.1 and v5.0. The version 5.0 brings more control and additional properties. For convenience, they are all commented with `v5.0 only` in the properties comments making a good usage of the Intellisense comments. If you're using a v5.0 property with the v3.1 or v3.1.1 protocol, they'll just be ignored.
+MQTT is supported as a client in .NET nanoFramework. You'll find the source in the .NET nanoFramework [MQTT](https://github.com/nanoframework/nanoFramework.m2mqtt) repository. The usage is globally the same whatever version is used, 3.1, 3.1.1 and 5.0 are supported. There are some specificities between v3.1.1 and v5.0. Version 5.0 brings more control and additional properties. For convenience, they are all commented with `v5.0 only` in the properties comments making good usage of the Intellisense comments. If you're using a v5.0 property with the v3.1 or v3.1.1 protocol, they'll just be ignored.
 
 Here is a basic example of creating a v3.1.1 server and connecting to it:
 
@@ -436,11 +436,11 @@ if (ret != MqttReasonCode.Success)
 }
 ```
 
-Note: in both example, a specific certificate is needed to connect to the Mosquitto server. You will find it in the [sample](https://github.com/nanoframework/nanoFramework.m2mqtt/tree/main/TestMqtt/TestAppv5.0). The v5.0 flow for authentication may be more complex and [is supported as well](https://github.com/nanoframework/nanoFramework.m2mqtt#v50-specific-authentication-flow).
+Note: in both examples, a specific certificate is needed to connect to the Mosquitto server. You will find it in the [sample](https://github.com/nanoframework/nanoFramework.m2mqtt/tree/main/TestMqtt/TestAppv5.0). The v5.0 flow for authentication may be more complex and [is supported as well](https://github.com/nanoframework/nanoFramework.m2mqtt#v50-specific-authentication-flow).
 
 ### Subscribing to events
 
-The MqttClient offers events. You can subscribe to them. As an example, you can get additional information on when the connection is opened with the v5.0 protocol. The below example show what is required to connect to Azure IoT Hub with the MQTT v5.0 protocol enabled:
+The MqttClient offers events. You can subscribe to them. As an example, you can get additional information on when the connection is opened with the v5.0 protocol. The below example shows what is required to connect to Azure IoT Hub with the MQTT v5.0 protocol enabled:
 
 ```csharp
 // Create the client
@@ -504,9 +504,12 @@ private static void MqttConnectionOpened(object sender, ConnectionOpenedEventArg
 
 ### Example
 
-The M2Mqtt library provides a main class `MqttClient` that represents the MQTT client to connect to a broker. You can connect to the broker providing its IP address or host name and optionally some parameters related to MQTT protocol.
+The M2Mqtt library provides the main class `MqttClient` that represents the MQTT client to connect to a broker. You can connect to the broker by providing its IP address or hostname and optionally some parameters related to MQTT protocol.
 
-After connecting to the broker you can use `Publish()` method to publish a message to a topic and `Subscribe()` method to subscribe to a topic and receive message published on it. The `MqttClient` class is events based so that you receive an event when a message is published to a topic you subscribed to. You can receive event when a message publishing is complete, you have subscribed or unsubscribed to a topic.
+
+After connecting to the broker you can use the `Publish()` method to publish a message to a topic and `Subscribe()` method to subscribe to a topic and receive messages published on it.
+
+The `MqttClient` class is events based so that you receive an event when a message is published to a topic you subscribed to. You can receive events when message publishing is complete, you have subscribed or unsubscribed to a topic.
 
 Following an example of client subscriber to a topic :
 
@@ -565,27 +568,27 @@ client.Connect(clientId);
 
 ## WebSockets and SignalR
 
-WebSockets and SignalR are supported. We do have a set of sample pack for all of them. WebSockets can be used as a client, a server or both at the same time! You'll find the source in the .NET nanoFramework [WebSockets](https://github.com/nanoframework/System.Net.WebSockets) and [SignalR](https://github.com/nanoframework/nanoFramework.SignalR.Client) repositories.
+WebSockets and SignalR are supported. We do have a set of sample packs for all of them. WebSockets can be used as a client, a server or both at the same time! You'll find the source in the .NET nanoFramework [WebSockets](https://github.com/nanoframework/System.Net.WebSockets) and [SignalR](https://github.com/nanoframework/nanoFramework.SignalR.Client) repositories.
 
 ### WebSockets Server Sample 
 
-[Server.RgbSample](https://github.com/nanoframework/Samples/tree/main/samples/WebSockets/WebSockets.Server.RgbSample) shows how to use Websocket Server with a WebServer hosting a WebApp that controls the rgb led on an Atom Lite ESP32.
+[Server.RgbSample](https://github.com/nanoframework/Samples/tree/main/samples/WebSockets/WebSockets.Server.RgbSample) shows how to use WebSocket Server with a WebServer hosting a WebApp that controls the RGB led on an Atom Lite ESP32.
 
 ### WebSockets Client Sample 
 
-[Client.Sample](https://github.com/nanoframework/Samples/tree/main/samples/WebSockets/Websockets.ServerClient.Sample) shows how to use the Websocket Client.
+[Client.Sample](https://github.com/nanoframework/Samples/tree/main/samples/WebSockets/Websockets.ServerClient.Sample) shows how to use the WebSocket Client.
 
 ### WebSockets Server and Client sample 
 
-[ServerClient.Sample](https://github.com/nanoframework/Samples/tree/main/samples/WebSockets/Websockets.ServerClient.Sample) shows how to configure and start a WebSocket Server and (ssl) Client.
+[ServerClient.Sample](https://github.com/nanoframework/Samples/tree/main/samples/WebSockets/Websockets.ServerClient.Sample) shows how to configure and start a WebSocket Server and (SSL) Client.
 
-On the SignalR side, the client has been implemented. This is a SignalR Client library that enable you to connect your .net nanoFramework device to a SignalR Hub.  SignalR is part of the ASP.NET Framework that makes it easy to create web applications that require high-frequency updates from the server like gaming. In the IoT domain SignalR can be used to create a webapp that for example shows a life graphs of connected smart meters, control a robot arm and many more.
+On the SignalR side, the client has been implemented. This is a SignalR Client library that enables you to connect your .net nanoFramework device to a SignalR Hub.  SignalR is part of the ASP.NET Framework that makes it easy to create web applications that require high-frequency updates from the server like gaming. In the IoT domain, SignalR can be used to create a web app that for example shows a live graph of connected smart meters, control a robot arm and many more.
 
 Important: You must be connected to a network with a valid IP address. Please check the examples with the Network Helpers on how to set this up.
 
 ### Connect to a hub
 
-To establish a connection, create a `HubConnection` Client. You have to set the hub URL upon initialization of the HubConnection. You can also set custom headers by adding `ClientWebsocketHeaders` and set extra options by adding `HubConnectionOptions` upon initialization. The options are mainly used to change the settings of the underlying websocket and to set extra ssl options.
+To establish a connection, create a `HubConnection` Client. You have to set the hub URL upon initialization of the HubConnection. You can also set custom headers by adding `ClientWebsocketHeaders` and set extra options by adding `HubConnectionOptions` upon initialization. The options are mainly used to change the settings of the underlying WebSocket and to set extra SSL options.
 You can start the connection by calling `Start`.
 
 ```csharp
@@ -655,9 +658,9 @@ namespace NFSignalrTestClient
 }
 ```
 
-There is a way to handle lost connections with retry policies, to get the connection state, to call hub methods from the client, get AsyncResult, even if .NET nanoFramework does not support await/async.
+There is a way to handle lost connections with retry policies, to get the connection state, call hub methods from the client, and get AsyncResult, even if .NET nanoFramework does not support await/async.
 
-The `AsyncResult` monitors the return message of the hub method. Upon completion `Completed` will be true. Upon completion the `Value` will hold the return object that needs to be cast to the right Type manually. Calling `Value` before completion will result in the awaiting of the server return. If an error occurs, `Error` will be true and the error message will be inside `ErrorMessage`.
+The `AsyncResult` monitors the return message of the hub method. Upon completion, `Completed` will be true. Upon completion, the `Value` will hold the return object that needs to be cast to the right Type manually. Calling `Value` before completion will result in the awaiting of the server return. If an error occurs, `Error` will be true and the error message will be inside `ErrorMessage`.
 
 ```csharp
 AsyncResult dashboardClientConnected = hubConnection.InvokeCoreAsync("AwaitCientConnected", typeof(bool), new object[] { }, -1);
@@ -677,7 +680,7 @@ if ((bool)dashboardClientConnected.Value)
 }
 ```
 
-### Call clients methods from hub
+### Call clients methods from a hub
 
 Define methods the hub calls using connection.On after building, but before starting the connection.
 
@@ -700,22 +703,22 @@ public async Task SendMessage(string user, string message)
 }
 ```
 
-## Azure library: all what you need is there!
+## Azure library: all you need is there!
 
 You'll find the source in the .NET nanoFramework [Azure IoT library](https://github.com/nanoframework/nanoFramework.Azure.Devices) repository.
 
-**Important**: You **must** be connected to a network with a valid IP address **and** a valid date. Please check the examples with the Network Helpers on how to help you making sure you have both.
+**Important**: You **must** be connected to a network with a valid IP address **and** a valid date. Please check the examples with the Network Helpers on how to help you make sure you have both.
 
 This Azure IoT Hub SDK is using MQTT. So you need to ensure you can connect to port 8883 using TLS protocol. If you are connected to an enterprise network, this may be blocked. In most cases, this is not an issue.
 
 The namespaces, the name of the classes and the methods try to get close to the .NET C# Azure IoT SDK. This should allow easier portability of the code between the full .Net framework and nanoFramework environments.
 
-### Certificate
+### Certificates
 
 You have 2 options to provide the right Azure IoT TLS certificate:
 
 - Parse it [into the constructor](https://github.com/nanoframework/nanoFramework.Azure.Devices/blob/main/README.md#through-the-constructor)
-- Store it [into the device](https://github.com/nanoframework/nanoFramework.Azure.Devices/blob/main/README.md#storing-the-certificate-on-the-device)
+- Store it [on the device](https://github.com/nanoframework/nanoFramework.Azure.Devices/blob/main/README.md#storing-the-certificate-on-the-device)
 
 The [AzureCertificates](https://github.com/nanoframework/nanoFramework.Azure.Devices/tree/main/AzureCertificates) contains, for your convenience, the root certificate used to connect to Azure IoT. The current one,  a Baltimore Root CA is the one to use up to June 2022. Starting from June 2022, the Digicert Global Root 2 is the one to use. For more information, please read the following [blog](https://techcommunity.microsoft.com/t5/internet-of-things/azure-iot-tls-critical-changes-are-almost-here-and-why-you/ba-p/2393169).
 
@@ -767,13 +770,15 @@ void AzureTwinUpdated(object sender, TwinUpdateEventArgs e)
 }
 ```
 
-In this example, the property we are interested in to receive is called `targetTemperature`. To receive its update, we are subscribing to the twin update. And we can get the value thu the `e.Twin[TargetTemerature]` once we've checked that the property exist.
+In this example, the property we are interested in receiving is called `targetTemperature`. To receive its update, we are subscribing to the twin update. And we can get the value via the `e.Twin[TargetTemerature]` once we've checked that the property exists.
 
-The patter to publish a writable property is then quite simple. it's about building a `PropertyAcknowledge`, creating a TwinCollection, adding it to it with the property name, here our `targetTemperature`. You can add more properties to report of course. Note that what you add to the TwinCollection is not directly the object but `BuildAcknowledge()`. One done, just ask the library to update the twin through the `UpdateReportedProperties` method.
+The pattern to publish a writable property is then quite simple. it's about building a `PropertyAcknowledge`, creating a TwinCollection, and adding the property name, in this case `targetTemperature`.
+
+You can add more properties to report. Note that you add to the TwinCollection, not directly the object but to `BuildAcknowledge()`. Once done, just ask the library to update the twin through the `UpdateReportedProperties` method.
 
 #### Receiving commands
 
-An IoT Plug & Play command is a method callback. See further in this document how you can use them. In our case, the method is called `getMaxMinReport`. The name of the method in C# **must** be the exact same as the name from the DTDL file.
+An IoT Plug & Play command is a method callback. See further in this document how you can use them. In our case, the method is called `getMaxMinReport`. The name of the method in C# **must** be the exactly same as the name from the DTDL file.
 
 ```csharp
 DeviceClient azureIoT = new DeviceClient(Secrets.IotHub, Secrets.DeviceName, Secrets.SasKey, azureCert: new X509Certificate(Resource.GetBytes(Resource.BinaryResources.AzureRoot)), modelId: "dtmi:com:example:Thermostat;1");
@@ -787,7 +792,7 @@ string getMaxMinReport(int rid, string payload)
 }
 ```
 
-In this example, the expected result is an object. Just populate the object and serialize it as a json as the command expect and return it. If any parameter to this command, it will be in the payload.
+In this example, the expected result is an object. Just populate the object and serialize it as a JSON as the command expect and return it. If any parameter to this command, it will be in the payload.
 
 ### Getting and updating Twin
 
@@ -807,7 +812,7 @@ Debug.WriteLine($"Twin DeviceID: {twin.DeviceId}, #desired: {twin.Properties.Des
 
 Note: it's important to use a `CancellationToken` that will be cancelled after a certain amount of time. Otherwise, this will be blocking the thread up to the point the twin is received. 
 
-Twins have properties, reported and desired. They are collection and you can get or try to get any element.
+Twins have properties, reported and desired. They are collections and you can get or try to get any element.
 
 You can report your Twin as simple as this:
 
@@ -818,7 +823,7 @@ reported.Add("sdk", 0.2);
 azureIoT.UpdateReportedProperties(reported);
 ```
 
-You also have the option to wait for the twin update confirmation, in this case use a `CancellationToken` that can be cancelled. Otherwise the check will be ignored.
+You also have the option to wait for the twin update confirmation, in this case, use a `CancellationToken` that can be cancelled. Otherwise, the check will be ignored.
 
 Note: the function will return false if the twin reception confirmation is not checked or if it did not arrive on time.
 
@@ -835,7 +840,7 @@ void TwinUpdatedEvent(object sender, TwinUpdateEventArgs e)
 
 ### Sending message
 
-You have to use the `SendMessage` function to send any kind of message or telemetry to Azure IoT. As for the other function, you have the possibility to ensure delivery with a `CancellationToken` than can be cancelled. If one that can't be cancelled is used, the delivery insurance will be ignored and the function will return false.
+You have to use the `SendMessage` function to send any kind of message or telemetry to Azure IoT. As for the other function, you can ensure delivery with a `CancellationToken` than can be cancelled. If one that can't be cancelled is used, the delivery insurance will be ignored and the function will return false.
 
 ```csharp
 var isReceived = azureIoT.SendMessage($"{{\"Temperature\":42,\"Pressure\":1024}}", new CancellationTokenSource(5000).Token);
@@ -912,7 +917,7 @@ string RaiseExceptionCallbackTest(int rid, string payload)
 }
 ```
 
-> **Important**: method names are case sensitive. So make sure you name your functions in C# use the same case.
+> **Important**: method names are case sensitive. So make sure you name your functions in C# using the same case.
 
 ### Status update event
 
@@ -948,9 +953,9 @@ While it's possible to configure QoS 0 (AtMostOnce) for faster message exchange,
 
 ### Module support
 
-Modules are supported, you will have to use the constructor to pass the module ID either with a SAS token, either with a certificate. The rest fully works like a normal device. Everything is fully supported including module direct method, telemetry and of course twins!
+Modules are supported, you will have to use the constructor to pass the module ID either with a SAS token, or with a certificate. The rest works like a normal device. Everything is fully supported including module direct method, telemetry and of course twins!
 
-For example here with a SAS token. Note that the certificates are fully supported as well. And if you are not storing the Azure root certificate on the device, you'll need to pass it in the constructor.
+For example here with a SAS token. Note that the certificates are fully supported as well. And if you are not storing the Azure root certificate on the device, you'll need to pass it to the constructor.
 
 ```csharp
 const string DeviceID = "nanoEdgeTwin";
@@ -962,7 +967,7 @@ DeviceClient module = new DeviceClient(IotBrokerAddress, DeviceID, ModuleID, Sas
 
 ### Azure IoT Device Provisioning Service (DPS) support
 
-This SDK also supports the Azure IoT Device Provisioning Service. Group and individual provisioning scenarios are supported either with a symmetric key either with certificates. To understand the mechanism behind DPS, it is recommended to read the [documentation](https://docs.microsoft.com/azure/iot-dps/).
+This SDK also supports the Azure IoT Device Provisioning Service. Group and individual provisioning scenarios are supported either with a symmetric key or with certificates. To understand the mechanism behind DPS, it is recommended to read the [documentation](https://docs.microsoft.com/azure/iot-dps/).
 
 ### Provisioning using symmetric key
 
@@ -1014,7 +1019,7 @@ public const string ModelId = "dtmi:orgpal:palthree:palthree_demo_0;1";
 
 ```
 
-Create the additional payload information with the model ID to be sent along the registration with DPS and pass that to the call to `Register()`.
+Create the additional payload information with the model ID to be sent along with the registration with DPS and pass that to the call to `Register()`.
 
 ```csharp
 var pnpPayload = new ProvisioningRegistrationAdditionalData
@@ -1032,13 +1037,13 @@ Create the device client passing the model ID to the respective parameter in the
 var device = new DeviceClient(myDevice.AssignedHub, myDevice.DeviceId, SasKey, nanoFramework.M2Mqtt.Messages.MqttQoSLevel.AtLeastOnce, azureCA, ModelId);
 ```
 
-Note: like for the `DeviceClient` you need to make sure you are connected to a network properly and also have a proper data and time set on the device.
+Note: like for the `DeviceClient` you need to make sure you are connected to a network properly and also have the date and time set on the device.
 
 Provisioning using certificates is supported as well and [described here](https://github.com/nanoframework/nanoFramework.Azure.Devices#provisioning-using-certificates).
 
 ### Additional payload
 
-Additional payload is supported as well. You can set it up as as json string in the `ProvisioningRegistrationAdditionalData` class when calling the `Register` function. When the device has been provisioned, you may have as well additional payload provided.
+Additional payload is supported as well. You can set it as a JSON string in the `ProvisioningRegistrationAdditionalData` class when calling the `Register` function. When the device has been provisioned, you may have as well additional payload provided.
 
 ## Running on battery for 8 years and connecting to Azure
 
@@ -1046,7 +1051,7 @@ One of the advantages of MCU is their low consumption and ability to deep sleep 
 
 ## Conclusion
 
-In this (long) article, we hope to have managed to demonstrate that you have **all** what you need to connect your MCU using .NET nanoFramework to almost anything! As a recap, here are the repositories related to networking in .NET nanoFramework:
+In this (long) article, we hope we have demonstrated **all** you need to connect your MCU using .NET nanoFramework to almost anything! As a recap, here are the repositories related to networking in .NET nanoFramework:
 
 * [TcpClient](https://github.com/nanoframework/System.Net.Sockets.TcpClient),
 * [UdpClient](https://github.com/nanoframework/System.Net.Sockets.UdpClient),
@@ -1057,6 +1062,6 @@ In this (long) article, we hope to have managed to demonstrate that you have **a
 * [AMQP](https://github.com/nanoframework/amqpnetlite),
 * [MQTT](https://github.com/nanoframework/nanoFramework.m2mqtt),
 * [Azure IoT library](https://github.com/nanoframework/nanoFramework.Azure.Devices),
-* And of course the Sample pack related to [networking](https://github.com/nanoframework/Samples#networking-including-http-ssl), [MQTT](https://github.com/nanoframework/Samples#mqtt), [AMQP](https://github.com/nanoframework/Samples#amqp) and [Azure](https://github.com/nanoframework/Samples#azure-specific)
+* And of course, the Sample pack related to [networking](https://github.com/nanoframework/Samples#networking-including-http-ssl), [MQTT](https://github.com/nanoframework/Samples#mqtt), [AMQP](https://github.com/nanoframework/Samples#amqp) and [Azure](https://github.com/nanoframework/Samples#azure-specific)
 
-Next Friday, we'll see an advance scenario: rebuilding fully a .NET nanoFramework image and including native C interoperability. Stay tuned! And as always, feedback welcome!
+Next Friday, we'll see an advanced scenario: rebuilding fully a .NET nanoFramework image and including native C interoperability. Stay tuned! And as always, feedback is welcome!
