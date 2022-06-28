@@ -9,7 +9,7 @@ tags: [dotnet, nanoframework]
 
 # Networking and Azure
 
-.NET nanoFramework offers native secure network capabilities. They may differ depending on the MCU and associated hardware but if there is an ethernet adaptor or a Wi-Fi module, except if they are extremely exotic, they'll be supported! For example, the ESP32 supports secure Wi-Fi connectivity, all certificates to authenticate servers and devices are supported making the connection secure from end to end using the underlying TLS/SSL.
+.NET nanoFramework offers native secure network capabilities. The capabilities may differ depending on the MCU and associated hardware but if there is an ethernet adaptor or a Wi-Fi module, except if they are extremely exotic, they'll be supported! For example, the ESP32 supports secure Wi-Fi connectivity, all certificates to authenticate servers and devices are supported making the connection secure from end to end using the underlying TLS/SSL.
 
 Watch the [Connect to Azure IoT](https://www.youtube.com/watch?v=pxXgU3XcRr4&t=5s) "IoT Show" episode to learn more about creating secure connections.
 
