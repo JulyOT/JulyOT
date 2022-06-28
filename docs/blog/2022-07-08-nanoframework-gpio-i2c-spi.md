@@ -11,11 +11,11 @@ tags: [dotnet, nanoframework]
 
 .NET nanoFramework has support for GPIO, I2C, SPI, PWM, ADC, DAC, Serial, 1-Wire. Also the API are aligned with [.NET IoT](https://github.com/dotnet/iot/) making it easy for code reuse between development on a Raspberry Pi with .NET 6.0 and an MCU running .NET nanoFramework.
 
-A comparison on how to reuse code and differences between .NET IoT and .NET nanoFramework is available [here](https://github.com/dotnet/samples/tree/main/iot/dotnet-iot-and-nanoframework).
+A comparison on how to reuse code and the differences between .NET IoT and .NET nanoFramework is available [here](https://github.com/dotnet/samples/tree/main/iot/dotnet-iot-and-nanoframework).
 
-Here are dedicated classes with detailed classes documentation and samples for each of them:
+There are dedicated classes with detailed documentation and samples for each of them:
 
-- General Purpose Input and Output (GPIO): [System.Device.Gpio](https://github.com/nanoframework/System.Device.Gpio) and associated document for the [class library](https://docs.nanoframework.net/api/System.Device.Gpio.html)
+- General Purpose Input and Output (GPIO): [System.Device.Gpio](https://github.com/nanoframework/System.Device.Gpio) and associated documentation for the [class library](https://docs.nanoframework.net/api/System.Device.Gpio.html)
 
     And a code spinet to blink a led:
 
@@ -63,7 +63,7 @@ Here are dedicated classes with detailed classes documentation and samples for e
     spiDevice.Write(writeBuffer);
     ```
 
-    You can as well write a single byte:
+    You can write single bytes:
     ```csharp
     spiDevice.WriteByte(42);
     ```
@@ -162,11 +162,9 @@ Here are dedicated classes with detailed classes documentation and samples for e
 
     [Digital Analog Converter samples](https://github.com/nanoframework/Samples/blob/main/samples/DAC).
 
-- Analog-to-digital converter (ADC): [System.Device.Adc](https://github.com/nanoframework/System.Device.Adc)and associated document for the [class library](https://docs.nanoframework.net/api/System.Device.Adc.html)
+- Analog-to-digital converter (ADC): [System.Device.Adc](https://github.com/nanoframework/System.Device.Adc) and associated document for the [class library](https://docs.nanoframework.net/api/System.Device.Adc.html)
 
-    Each target device has an ADC Controller, no matter how many ADC hardware blocks the microcontroller has.
-    To read a channel, one must first instantiate the ADC controller and open the channel from which it's intended to read from.
-    In order to read the raw value from an ADC channel, it's a simple matter of calling the Read() method on a open channel.
+    Each target device has an ADC Controller. To read a channel, first, instantiate the ADC controller and open the channel you want to read from. To read the raw value from an ADC channel, it's a simple matter of calling the Read() method on an open channel.
 
     ```csharp
     AdcController adc1 = new AdcController();
@@ -174,7 +172,7 @@ Here are dedicated classes with detailed classes documentation and samples for e
     int myAdcRawvalue = channel0.ReadValue();
     ```
 
-    To find details about the ADC controller, one can query the various properties of the ADC controller, like this.
+    To find details about the ADC controller, query the ADC controller properties, like this.
 
     ```csharp
     // get maximum raw value from the ADC controller
@@ -191,7 +189,7 @@ Here are dedicated classes with detailed classes documentation and samples for e
 
 - Pulse-width Modulation (PWM): [System.Device.Pwm](https://github.com/nanoframework/System.Device.Pwm)and associated document for the [class library](https://docs.nanoframework.net/api/System.Device.Pwm.html)
 
-    You can create a PWM channel from a pin number, this is the recommended way. Keep in mind, you will have to allocate the pin in the case of ESP32 and make sure your pin is PWM enabled for STM32 devices.
+    You can create a PWM channel from a pin number. For an ESP32 device, allocate the pin, for an STM32 device ensure the selected pin is PWM enabled.
 
     ```csharp
     // Case of ESP32, you need to set the pin function, in this example PWM3 for pin 18:
@@ -212,9 +210,9 @@ Here are dedicated classes with detailed classes documentation and samples for e
 
     The duty cycle goes from 0.0 to 1.0.
 
-    It is recommended to setup the frequency when creating the PWM Channel. You can technically change it at any time but keep in mind some platform may not behave properly when adjusting this element.
+    It is recommended to set the frequency when creating the PWM Channel. You can technically change it at any time but keep in mind some platforms may not behave properly when adjusting this element.
 
-    You can as well, if you know the chip/timer Id and the channel use the create function:
+    Alternatively, if you know the chip/timer Id and the channel then follow this example:
 
     ```csharp
     PwmChannel pwmPin = new(1, 2, 40000, 0.5);
@@ -222,9 +220,9 @@ Here are dedicated classes with detailed classes documentation and samples for e
 
     More on [System.Device.Pwm sample](https://github.com/nanoframework/Samples/blob/main/samples/PWM/System.Device.Pwm).
 
-- Serial Port: [System.IO.Ports](https://github.com/nanoframework/System.IO.Ports)and associated document for the [class library](https://docs.nanoframework.net/api/System.IO.Ports.html)
+- Serial Port: [System.IO.Ports](https://github.com/nanoframework/System.IO.Ports)and associated documentation for the [class library](https://docs.nanoframework.net/api/System.IO.Ports.html)
 
-    Serial ports are used a lot to communicate with various sensors. The `SerialPort` can only operate once open and will finish the operations when closed. When disposed, the `SerialPort` will perform the close operation regardless of any ongoing receive or transmit operations.
+    Serial ports are often used to communicate with sensors. The `SerialPort` must be first opened before it can be used. The serial port can also be closed, when the serial port is disposed, the `SerialPort` will perform the close operation regardless of any ongoing receive or transmit operations.
 
     ```csharp
     // You can specify baud rate, parity, bit stops and number of bits as well:
@@ -234,8 +232,7 @@ Here are dedicated classes with detailed classes documentation and samples for e
     port.Close();
     ```
 
-    You have multiple functions to read and write, some are byte related, others string related. 
-    Note that string functions will use UTF8 `Encoding` charset.
+    There are functions to read and write, some are byte related, others string related. Note that string functions will use UTF8 `Encoding` charset.
 
     Example of sending and reading byte arrays:
 
@@ -298,13 +295,13 @@ Here are dedicated classes with detailed classes documentation and samples for e
 
 - One Wire or 1-Wire: [nanoFramework.Device.OneWire]https://github.com/nanoframework/nanoFramework.Device.OneWire)and associated document for the [class library](https://docs.nanoframework.net/api/nanoFramework.Device.OneWire.html)
 
-    To connect to a 1-Wire bus and perform operations with the connected devices, one has to first instantiate the OneWireHost.
+    To connect to a 1-Wire bus, first, instantiate an OneWireHost object, then perform operations with the connected devices.
 
     ```csharp
     OneWireHost _OneWireHost = new OneWireHost();
     ```
 
-    To find the first device connected to the 1-Wire bus, and perform a reset on the bus before performing the search, the following call should be made:
+    To find the first device connected to the 1-Wire bus, and perform a reset on the bus before performing the search, call the `FindFirstDevice` method:
 
     ```csharp
     _OneWireHost.FindFirstDevice(true, false);
@@ -336,21 +333,21 @@ Here are dedicated classes with detailed classes documentation and samples for e
 
     Check out the [1-Wire sample](https://github.com/nanoframework/Samples/blob/main/samples/1-Wire).
 
-> Note: devices have a different way to name pins and to set them up. It is important to check the default configuration especially for any STM32 devices. ESP32 devices can be setup dynamically. A NuGet package is available for this [nanoFramework.Hardware.Esp32](https://github.com/nanoframework/nanoFramework.Hardware.Esp32). In that case, you would have to setup pins if they are not matching your [defaults ones](https://docs.nanoframework.net/content/esp32/esp32_pin_out.html).
+> Note: devices have different ways to name pins and set them up. It is important to check the default configuration, especially for any STM32 devices. ESP32 devices can be set dynamically. A NuGet package is available for this [nanoFramework.Hardware.Esp32](https://github.com/nanoframework/nanoFramework.Hardware.Esp32). In that case, you would have to set the pins if they don't match your [defaults pins](https://docs.nanoframework.net/content/esp32/esp32_pin_out.html).
 
-## IoT Repository and advance bindings
+## IoT Repository and advanced bindings
 
-The alignment between .NET IoT and .NET nanoFramework allows code reuse between the different platforms. While it's not technically possible to have the exact same NuGet for both as the platforms are different, reusing API and code is possible. A lot of work and effort has been put in place to facilitate the creation of individual NuGet packages for almost each of the .NET IoT bindings! The [IoT Device repository](https://github.com/nanoframework/nanoFramework.IoT.Device) contains all the tools and the code for all the available bindings.
+The alignment between .NET IoT and .NET nanoFramework allows code reuse between the different platforms. While it's not technically possible to have the same NuGet for both platforms, reusing API and code is possible. A lot of work and effort has been put in place to facilitate the creation of individual NuGet packages for almost all of the .NET IoT bindings! The [IoT Device repository](https://github.com/nanoframework/nanoFramework.IoT.Device) contains all the tools and the code for all of the available bindings.
 
-.NET nanoFramework does not have *yet* Generics and does not neither have Linq and some other compromise had to be done to fit into those very little MCU. [This page](https://docs.nanoframework.net/content/architecture/simplifications-and-trade-offs.html) explains most of them.
+The .NET nanoFramework does not *yet* support Generics or Linq, and in places, compromises have been made so the framework fits on constrained devices. [This page](https://docs.nanoframework.net/content/architecture/simplifications-and-trade-offs.html) explains most of them.
 
-Tools to help in the migration has been built to automate some of the migration and [initial work started back in May 2021](https://www.nanoframework.net/net-iot-bindings-available/). Now more than 98 bindings are available, some specific for MCU and optimized for a specific platform like ESP32. .NET IoT also benefited from this work as some of those new bindings has been migrated back to .NET IoT.
+Tools to help in the migration have been built to automate some of the migration and [initial work started back in May 2021](https://www.nanoframework.net/net-iot-bindings-available/). Now more than 98 bindings are available, some specific for MCU and optimized for a specific platform like ESP32. .NET IoT also benefited from this work as some of those new bindings have been migrated back to .NET IoT.
 
 Here is a view of the devices!
 
 [![device list](../static/img/png/iot-device-list.png)](https://github.com/nanoframework/nanoFramework.IoT.Device#list-of-devices)
 
-Each binding has its own sample. All is well organized and you'll find those in the `/devices/BindingName/samples` directory. And as an example, here is how you can use a BMP280:
+Each binding has a sample. All is well organized and you'll find those in the `/devices/BindingName/samples` directory. And as an example, here is how you can use a BMP280:
 
 ```csharp
 // bus id on the MCU
@@ -372,4 +369,4 @@ Debug.WriteLine($"Temperature: {readResult.Temperature?.DegreesCelsius:N1}\u00B0
 Debug.WriteLine($"Pressure: {readResult.Pressure?.Hectopascals:N2}hPa");
 ```
 
-You will note as well the usage of [UnitsNet](https://github.com/angularsen/UnitsNet). We've atomized the most popular ones and provide them as NuGet packages. They are used to facilitate any unit conversion. So you don't need to think if you have to provide a temperature as a Celsius or a Fahrenheit. It's just a temperature, the end developer will just choose the unit to display. The rest of the magic is done for you.
+Note the usage of [UnitsNet](https://github.com/angularsen/UnitsNet). UnitsNet is used to facilitate unit conversions. We've implemented the most popular unit conversions and provided them as NuGet packages. This simplifies development, for example, you don't need to worry about providing a temperature value in Celsius or Fahrenheit. It's just a temperature, the developer can choose the unit to display. The rest of the magic is done for you.
