@@ -17,7 +17,7 @@ Connecting to Azure IoT is easy with library support for Device Provisioning Ser
 
 ## Announcing the first .NET nanoFramework Azure Certified Device
 
-In May 2022, the PalThree device from OrgPal based on an STM32F7 MCU is the first [Azure Certified Device running .NET nanoFramework](https://www.nanoframework.net/palthree-board-becomes-azure-certified-device/) has been approved. This device is also IoT Plug and Play certified. The .NET nanoFramework is ready for production.
+In May 2022, the PalThree device from OrgPal based on an STM32F7 MCU is the first [Azure Certified Device running .NET nanoFramework](https://www.nanoframework.net/palthree-board-becomes-azure-certified-device/) to be approved. This device is also IoT Plug and Play certified. The .NET nanoFramework is ready for production.
 
 ## .NET nanoFramework communications capabilities
 
