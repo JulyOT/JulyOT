@@ -84,7 +84,7 @@ const config = {
           { to: '/livestreams', label: 'Live Streams', position: 'right'},
           { to: '/meetups', label: 'Meetups and Events', position: 'right'},
           { to: '/skills', label: 'Cloud Skills', position: 'right'},
-          { to: '/roadmap', label: 'Roadmap', position: 'right'},
+          // { to: '/roadmap', label: 'Roadmap', position: 'right'},
           { to: '/resources', label: 'Resources', position: 'right'},
           { to: '/digitalswag', label: 'Digital Swag', position: 'right'},
           {
