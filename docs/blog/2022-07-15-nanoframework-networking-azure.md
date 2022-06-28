@@ -121,7 +121,7 @@ var result = _httpClient.Post("https://httpbin.org/anything", content);
 result.EnsureSuccessStatusCode();
 ```
 
-Worth noting that the JSON content above it's presented as a simple string to simplify the code. There is a [json library](https://github.com/nanoframework/nanoFramework.Json) available to help with serializing and deserializing from/to C# classes, even the most complex ones.
+Worth noting that the JSON content above it's presented as a simple string to simplify the code. There is a [json library](https://github.com/nanoframework/nanoFramework.Json) available to help with serializing and deserializing from/to C\# classes, even the most complex ones.
 
 Note the call to `response.EnsureSuccessStatusCode();` to make sure the HTTP request was successfully performed.
 
@@ -724,7 +724,7 @@ You'll find the source in the .NET nanoFramework [Azure IoT library](https://git
 
 The .NET nanoFramework Azure IoT Hub library uses the MQTT protocol. You need to ensure you can connect to port 8883 using TLS protocol. If you are connected to an enterprise network, this may be blocked. In most cases, this is not an issue.
 
-To aid portability, the .NET nanoFramework Azure IoT Hub library aims to match the namespaces, class, and method names found in the full .NET C# Azure IoT SDK.
+To aid portability, the .NET nanoFramework Azure IoT Hub library aims to match the namespaces, class, and method names found in the full .NET C\# Azure IoT SDK.
 
 ### Certificates
 
@@ -789,7 +789,7 @@ You can add more than one property. Note that you add to the TwinCollection, onc
 
 #### Receiving IoT Plug&Play commands
 
-An IoT Plug & Play command is a method callback. The following example shows how to map an IoT Play & Play command to a C# method. The method is called `getMaxMinReport`, the name of the C# method **must** match the command name as defined in the DTDL file.
+An IoT Plug & Play command is a method callback. The following example shows how to map an IoT Play & Play command to a C\# method. The method is called `getMaxMinReport`, the name of the C\# method **must** match the command name as defined in the DTDL file.
 
 ```csharp
 DeviceClient azureIoT = new DeviceClient(Secrets.IotHub, Secrets.DeviceName, Secrets.SasKey, azureCert: new X509Certificate(Resource.GetBytes(Resource.BinaryResources.AzureRoot)), modelId: "dtmi:com:example:Thermostat;1");
@@ -928,7 +928,7 @@ string RaiseExceptionCallbackTest(int rid, string payload)
 }
 ```
 
-> **Important**: method names are case-sensitive. So make sure you name your functions in C# using the same case.
+> **Important**: method names are case-sensitive. So make sure you name your functions in C\# using the same case.
 
 ### Status update event
 
