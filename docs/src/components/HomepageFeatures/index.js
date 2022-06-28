@@ -4,42 +4,77 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'IoT For Beginners',
-    Svg: require('@site/static/img/svg/landing-beginner.svg').default,
+    title: '#JulyOT Blog',
+    Svg: require('@site/static/img/svg/julyot.svg').default,
     description: (
       <>
-        Learn the fundamental concepts, terminology and technologies required to develop for the Internet of Things.
+        Home of all the great content to help you celebrate #JulyOT
       </>
     ),
+    link: '/blog',
   },
   {
-    title: 'AI at the Edge',
-    Svg: require('@site/static/img/svg/landing-edge.svg').default,
+    title: 'IoT Cloud Skills Challenge',
+    Svg: require('@site/static/img/svg/image_medals.svg').default,
     description: (
       <>
-      Train AI models in the cloud, then deploy them on capable edge devices to gain real-time insights even if disconnected.
+      Skill yourself up in 31 days and complete the Cloud Skills Challenge
       </>
     ),
+    link: '/skills',
   },
   {
-    title: 'IoT Certifications',
-    Svg: require('@site/static/img/svg/landing-cert.svg').default,
+    title: 'Digital swag',
+    Svg: require('@site/static/img/svg/julyot-swag-badge.svg').default,
     description: (
       <>
-      Validate and showcase your expertise in IoT technologies and solutions with industry-recognized professional credentials.
+      Grab some digital swag to get in the mood for #JulyOT
       </>
     ),
+    link: '',
+  },
+  {
+    title: 'Live streams',
+    Svg: require('@site/static/img/svg/webcam.svg').default,
+    description: (
+      <>
+      Join IoT live streams throughout July
+      </>
+    ),
+    link: '/livestreams',
+  },
+  {
+    title: 'Meetups and events',
+    Svg: require('@site/static/img/svg/livestream.svg').default,
+    description: (
+      <>
+      Meet with like-minded folks at live and virtual IoT meetups
+      </>
+    ),
+    link: '/meetups',
+  },
+  {
+    title: 'Resources',
+    Svg: require('@site/static/img/svg/resources.svg').default,
+    description: (
+      <>
+      Resources to get you started, or to continue on your journey with IoT
+      </>
+    ),
+    link: '/resources',
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({Svg, title, description, link}) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
+        <a href={link}>
         <Svg className={styles.featureSvg} role="img" />
+        </a>
       </div>
       <div className="text--center padding-horiz--md">
-        <h3>{title}</h3>
+      <a href={link}><h3>{title}</h3></a>
         <p>{description}</p>
       </div>
     </div>
