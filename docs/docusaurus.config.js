@@ -80,12 +80,13 @@ const config = {
         },
         items: [
           { to: '/blog', label: 'Blog', position: 'left'},
-          { to: '/videos', label: 'Videos', position: 'right'},
-          { to: '/livestreams', label: 'Live Streams', position: 'right'},
           { to: '/skills', label: 'Cloud Skills', position: 'right'},
-          { to: '/roadmap', label: 'Roadmap', position: 'right'},
-          { to: '/resources', label: 'Resources', position: 'right'},
           { to: '/digitalswag', label: 'Digital Swag', position: 'right'},
+          // { to: '/videos', label: 'Videos', position: 'right'},
+          { to: '/livestreams', label: 'Live Streams', position: 'right'},
+          { to: '/meetups', label: 'Meetups and Events', position: 'right'},
+          // { to: '/roadmap', label: 'Roadmap', position: 'right'},
+          { to: '/resources', label: 'Resources', position: 'right'},
           {
             type: 'dropdown',
             label: 'Archives',
@@ -93,11 +94,11 @@ const config = {
             items: [
               {
                 label: '#JulyOT 2021',
-                href: 'https://techcommunity.microsoft.com/t5/internet-of-things-blog/julyot-2021-31-days-of-iot-content-for-everyone/ba-p/2427431?WT.mc_id=iot-0000-cxa',
+                href: 'https://techcommunity.microsoft.com/t5/internet-of-things-blog/julyot-2021-31-days-of-iot-content-for-everyone/ba-p/2427431?WT.mc_id=eventspg_16482_webpage_reactor',
               },
               {
                 label: '#JulyOT 2020',
-                href: 'https://techcommunity.microsoft.com/t5/internet-of-things-blog/julyot-a-month-of-learning-focused-on-azure-iot-solutions/ba-p/1497040?WT.mc_id=iot-0000-cxa',
+                href: 'https://techcommunity.microsoft.com/t5/internet-of-things-blog/julyot-a-month-of-learning-focused-on-azure-iot-solutions/ba-p/1497040?WT.mc_id=eventspg_16482_webpage_reactor',
               },
             ],
           },
@@ -165,7 +166,7 @@ const config = {
       announcementBar: {
         id: '#JulyOT',
         content:
-          '<b>Found this project helpful? Give us a star on <a href="https://github.com/JulyOT/JulyOT"><b>GitHub</b></a></b> 🙏🏽',
+          '<b>Join the <a href="https://docs.microsoft.com/learn/challenges?id=261fd583-fa7b-4b1f-86eb-6a52b5468a23&wt.mc_id=eventspg_16482_webpage_reactor" target="_blank"><b>IoT Cloud Skills Challenge</b></a> and build expertise in implementing the configuration and coding tasks required to create and maintain the cloud and edge portions of an IoT solution.</b>',
         backgroundColor: '#0D1E4E',
         textColor: '#7EE2FB',
         isCloseable: false,

@@ -70,8 +70,14 @@ vanessa:
   url: https://github.com/vavilla
   image_url: https://github.com/vavilla.png
 
-josesimoes:
+jose:
   name: José Simões
   title: CEO @Eclo Solutions
   url: https://github.com/josesimoes
   image_url: https://github.com/josesimoes.png
+
+liya:
+  name: Liya Du
+  title: Principal Program Manager @Microsoft
+  url: https://github.com/liydu
+  image_url: https://github.com/liydu.png
