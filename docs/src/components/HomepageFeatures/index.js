@@ -31,7 +31,7 @@ const FeatureList = [
       Grab some digital swag to get in the mood for #JulyOT
       </>
     ),
-    link: '',
+    link: '/digitalswag',
   },
   {
     title: 'Live streams',
