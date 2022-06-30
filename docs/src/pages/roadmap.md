@@ -34,10 +34,10 @@ Train models in the cloud, deploy in edge devices for real-time insights. <br/> 
  * Week 4:
 
 :::info **IoT CERTIFICATION**
-Validate your understanding and get a resume-ready credential for your expertise. <br/> **Track Lead: Pamela Cortez**
+Validate your understanding and get a resume-ready credential for your expertise. <br/> **Track Lead: Diana Phillips**
 :::
 
- * Week 1:
- * Week 2:
- * Week 3:
- * Week 4:
+ * Week 1: Certification Basics
+ * Week 2: Study Guide
+ * Week 3: Study Resources
+ * Week 4: Final Prep
