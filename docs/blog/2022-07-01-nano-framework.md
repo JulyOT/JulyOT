@@ -3,7 +3,7 @@ slug: 01-nano-framework
 title: "01: Getting started with nanoFramework!"
 authors: [laurent,jose]
 tags: [30days, iot, embeddediot]
-draft: true
+draft: false
 ---
 
 <head>
