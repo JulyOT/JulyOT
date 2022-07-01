@@ -25,7 +25,7 @@ const FeatureList = [
   },
   {
     title: 'Digital swag',
-    Svg: require('@site/static/img/svg/julyot-swag-badge.svg').default,
+    Svg: require('@site/static/img/svg/julyot.svg').default,
     description: (
       <>
       Grab some digital swag to get in the mood for #JulyOT
