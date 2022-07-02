@@ -74,7 +74,9 @@ function Feature({Svg, title, description, link}) {
         </a>
       </div> */}
       <div className="text--center padding-horiz--md">
-      <a href={link}><h3>{title}</h3></a>
+        <form action={link}>
+          <input type="submit" value={title} class="clean-btn button button--primary margin-left--md"/>
+        </form>
         <p>{description}</p>
       </div>
     </div>
