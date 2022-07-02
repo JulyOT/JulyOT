@@ -17,7 +17,7 @@ draft: false
   <link rel="canonical" href="https://julyot.dev/blog/01-nano-framework" />
 </head>
 
-> Getting started with nanoFramework
+> Welcome to Day 1 of **#JulyOT**!
 
 ![Page banner](/img/png/JulyOT-banner-1-nanoframework.png)
 
