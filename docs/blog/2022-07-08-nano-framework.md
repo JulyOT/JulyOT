@@ -31,7 +31,7 @@ draft: true
 
  - General Purpose Input and Output (GPIO): [System.Device.Gpio](https://github.com/nanoframework/System.Device.Gpio) and associated documentation for the [class library](https://docs.nanoframework.net/api/System.Device.Gpio.html)
 
-     And a code spinet to blink a led:
+     And a code snipet to blink a led:
 
      ```csharp
      // Creates a GPIO controller
@@ -109,7 +109,7 @@ draft: true
 
      More [System.Device.Spi samples](https://github.com/nanoframework/Samples/blob/main/samples/SPI).
 
- - Inter-Integrated Circuit (I2C): [System.Device.I2c](https://github.com/nanoframework/System.Device.I2c)and associated document for the [class library](https://docs.nanoframework.net/api/System.Device.I2c.html)
+ - Inter-Integrated Circuit (I2C): [System.Device.I2c](https://github.com/nanoframework/System.Device.I2c) and associated document for the [class library](https://docs.nanoframework.net/api/System.Device.I2c.html)
 
      Here is a short example on how to use I2C:
 
@@ -131,7 +131,7 @@ draft: true
 
      [I2C sample sample pack](https://github.com/nanoframework/Samples/blob/main/samples/I2C) containing as well [I2C GPS sample](https://github.com/nanoframework/Samples/blob/main/samples/I2C/System.Device.I2c/GPS) and an [I2C Scanner sample](https://github.com/nanoframework/Samples/blob/main/samples/I2C/NanoI2cScanner).
 
- - Digital-to-analog converter (DAC): [System.Device.Dac](https://github.com/nanoframework/System.Device.Dac)and associated document for the [class library](https://docs.nanoframework.net/api/System.Device.Dac.html)
+ - Digital-to-analog converter (DAC): [System.Device.Dac](https://github.com/nanoframework/System.Device.Dac) and associated document for the [class library](https://docs.nanoframework.net/api/System.Device.Dac.html)
 
      A simple example for DAC is to create a specific sinus wave for example:
 
@@ -201,7 +201,7 @@ draft: true
 
      [Analogic/Digital converter sample](https://github.com/nanoframework/Samples/blob/main/samples/ADC).
 
- - Pulse-width Modulation (PWM): [System.Device.Pwm](https://github.com/nanoframework/System.Device.Pwm)and associated document for the [class library](https://docs.nanoframework.net/api/System.Device.Pwm.html)
+ - Pulse-width Modulation (PWM): [System.Device.Pwm](https://github.com/nanoframework/System.Device.Pwm) and associated document for the [class library](https://docs.nanoframework.net/api/System.Device.Pwm.html)
 
      You can create a PWM channel from a pin number. For an ESP32 device, allocate the pin, for an STM32 device ensure the selected pin is PWM enabled.
 
@@ -307,7 +307,7 @@ draft: true
 
      There are more supported. Check it in the [System.IO.Ports serial Communication sample](https://github.com/nanoframework/Samples/blob/main/samples/SerialCommunication).
 
- - One Wire or 1-Wire: [nanoFramework.Device.OneWire]https://github.com/nanoframework/nanoFramework.Device.OneWire)and associated document for the [class library](https://docs.nanoframework.net/api/nanoFramework.Device.OneWire.html)
+ - One Wire or 1-Wire: [nanoFramework.Device.OneWire](https://github.com/nanoframework/nanoFramework.Device.OneWire) and associated document for the [class library](https://docs.nanoframework.net/api/nanoFramework.Device.OneWire.html)
 
      To connect to a 1-Wire bus, first, instantiate an OneWireHost object, then perform operations with the connected devices.
 
