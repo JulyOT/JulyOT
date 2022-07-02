@@ -30,7 +30,7 @@ draft: false
 
 ## Getting started with nanoFramework
 
-.NET nanoFramework: Our mantra is about **making it easy to write C\# code for embedded systems!** And all that we're doing here is about that. This free and Open Source platform enables the writing of managed code applications for constrained embedded devices. As a developer, you can use your powerful and familiar tools like Microsoft Visual Studio IDE and your .NET C\# skills to write code on a microcontroller.
+.NET nanoFramework: Our mantra is about **making it easy to write C# code for embedded systems!** And all that we're doing here is about that. This free and Open Source platform enables the writing of managed code applications for constrained embedded devices. As a developer, you can use your powerful and familiar tools like Microsoft Visual Studio IDE and your .NET C# skills to write code on a microcontroller.
 
 .NET nanoFramework supports a large variety of Micro Controller Units (MCU): STM32, ESP32, TI, and NXP. The .NET nanoFramework provides access to low-level IO and protocols, as well as networking and advanced security features allowing connection to the Cloud.
 
@@ -60,7 +60,7 @@ And a lot of samples to start: <https://github.com/nanoframework/Samples>
 
 .NET **nanoFramework** is a [free and open-source](https://en.wikipedia.org/wiki/Free_and_open-source_software) platform that enables the writing of managed code applications for constrained [embedded devices](https://en.wikipedia.org/wiki/Embedded_system). It is suitable for many types of projects including IoT sensors, wearables, academic proof of concept, robotics, hobbyist/makers creations, or even complex industrial equipment. The .NET nanoFramework makes development easier, faster, and less costly by giving embedded developers access to modern technologies and tools used by desktop application developers.
 
-Developers can harness the powerful and familiar [Microsoft Visual Studio IDE](https://www.visualstudio.com/vs/?wt.mc_id=eventspg_16482_webpage_reactor) and their [.NET](https://en.wikipedia.org/wiki/.NET_Framework) [C\#](https://en.wikipedia.org/wiki/C_Sharp_(programming_language)) knowledge to quickly write code without having to worry about the low-level hardware intricacies of a microcontroller. Desktop .NET developers will feel “at home” and can use their skills in embedded systems development, enlarging the pool of qualified embedded developers. Using Microsoft Visual Studio, a developer can deploy and debug the code directly on real hardware.
+Developers can harness the powerful and familiar [Microsoft Visual Studio IDE](https://www.visualstudio.com/vs/?wt.mc_id=eventspg_16482_webpage_reactor) and their [.NET](https://en.wikipedia.org/wiki/.NET_Framework) [C#](https://en.wikipedia.org/wiki/C_Sharp_(programming_language)) knowledge to quickly write code without having to worry about the low-level hardware intricacies of a microcontroller. Desktop .NET developers will feel “at home” and can use their skills in embedded systems development, enlarging the pool of qualified embedded developers. Using Microsoft Visual Studio, a developer can deploy and debug the code directly on real hardware.
 
 The .NET nanoFramework includes a reduced version of the .NET [Common Language Runtime](https://en.wikipedia.org/wiki/Common_Language_Runtime) (CLR) and features a subset of the .NET base class libraries along with the most common APIs included in [.NET IoT](https://docs.microsoft.com/uwp/api/?wt.mc_id=eventspg_16482_webpage_reactor) allowing code reuse from .NET IoT applications, thousands of code examples, and open source projects.
 
@@ -91,7 +91,7 @@ Here are some of its unique features:
 * Supports common embedded peripherals and interconnects like GPIO, UART, SPI, I2C, USB, and networking.
 * Provides multi-threading support natively.
 * Support for energy-efficient operations such as devices running on batteries.
-* Support for Interop code allows developers to easily write libraries that have both managed (C\#) and native code (C/C++).
+* Support for Interop code allows developers to easily write libraries that have both managed (C#) and native code (C/C++).
 * No manual memory management because of its simpler mark-and-sweep [garbage collector](https://en.wikipedia.org/wiki/Garbage_collection_(computer_science)).
 * Execution constraints to catch device lockups and crashes.
 
