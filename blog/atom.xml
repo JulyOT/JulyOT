@@ -2,11 +2,26 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://JulyOT.dev/blog</id>
     <title>#JulyOT Blog</title>
-    <updated>2022-07-01T00:00:00.000Z</updated>
+    <updated>2022-07-02T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://JulyOT.dev/blog"/>
     <subtitle>#JulyOT Blog</subtitle>
     <icon>https://JulyOT.dev/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[02: IoT for beginners]]></title>
+        <id>julyot-day2</id>
+        <link href="https://JulyOT.dev/blog/julyot-day2"/>
+        <updated>2022-07-02T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Welcome to `Day 2 of #JulyOT!!]]></summary>
+        <content type="html"><![CDATA[<blockquote><p>Welcome to `Day 2 of <strong>#JulyOT</strong>!! </p></blockquote><p>As we go into the first weekend of July, and a long weekend for some, there's no better time to brush up on your basics.</p><p>For day 2 of #JulyOT we are dipping into the archives to bring you <a href="https://aka.ms/iot-beginners" target="_blank" rel="noopener noreferrer">IoT for Beginners</a>, a 12-week, 24-lesson free and open source IoT curriculum to teach you IoT from the ground up.</p><form action="https://aka.ms/iot-beginners" target="_blank"><input type="submit" value="Start the course" class="clean-btn button button--primary margin-left--md"></form><h2 class="anchor anchorWithStickyNavbar_LWe7" id="course-outline">Course outline<a class="hash-link" href="#course-outline" title="Direct link to heading">​</a></h2><p><img loading="lazy" src="https://github.com/microsoft/IoT-For-Beginners/raw/main/sketchnotes/Roadmap.jpg" alt="A rodmap for IoT for beginners" class="img_ev3q"></p><p>IoT for Beginners is split into 6 projects, each one teaching important IoT concepts and coupled with you actually building something. The projects follow the path from farm to table, showing how IoT can improve the journey food makes, and covering industrial IoT, digital agriculture, AI on the edge, retail IoT, and consumer IoT.</p><ul><li>Introduction - build an IoT nightlight</li><li>Digital agriculture - build an automated watering system</li><li>Logistics - build a vehicle tracker with a dashboard and location alerts</li><li>Manufacturing - use AI on the edge to build a fruit monitor</li><li>Retail - use AI on the edge to do stock monitoring</li><li>Consumer - build a voice controlled smart timer</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="meet-the-team">Meet the team<a class="hash-link" href="#meet-the-team" title="Direct link to heading">​</a></h2><p>This course was put together as a collaboration between IoT experts at Microsoft, and students from all around the world. You can learn more from the following video:</p><p><a href="https://youtu.be/-wippUJRi5k" target="_blank" rel="noopener noreferrer"><img loading="lazy" src="https://github.com/microsoft/IoT-For-Beginners/raw/main/images/IOT.gif" alt="Promo video" class="img_ev3q"></a></p><p><strong>Gif by</strong> <a href="https://linkedin.com/in/mohitjaisal" target="_blank" rel="noopener noreferrer">Mohit Jaisal</a></p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="get-started">Get started<a class="hash-link" href="#get-started" title="Direct link to heading">​</a></h2><p>What are you waiting for? Head to the <a href="https://aka.ms/iot-beginners" target="_blank" rel="noopener noreferrer">IoT for Beginners repo on GitHub</a> and get started!</p>]]></content>
+        <author>
+            <name>Jim Bennett</name>
+            <uri>https://github.com/jimbobbennett</uri>
+        </author>
+        <category label="30days" term="30days"/>
+        <category label="iot" term="iot"/>
+        <category label="iot4b" term="iot4b"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[01: Getting started with nanoFramework!]]></title>
         <id>01-nano-framework</id>
