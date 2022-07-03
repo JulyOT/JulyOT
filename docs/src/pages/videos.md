@@ -1,6 +1,6 @@
 # Watch And Learn
 
-Do you prefer watching videos when you learn? Want to keep up to date with the latest news and announcements in the IoT Ecosystem? Check out the [Shows](https://docs.microsoft.com/en-us/shows/) on Microsoft Docs for thousands of hours of orginal developer-focused content. Here are a few of our favorite shows for IoT.
+Do you prefer watching videos when you learn? Want to keep up to date with the latest news and announcements in the IoT Ecosystem? Check out the [Shows](https://docs.microsoft.com/shows/?wt.mc_id=eventspg_16482_webpage_reactor) on Microsoft Docs for thousands of hours of orginal developer-focused content. Here are a few of our favorite shows for IoT.
 
 -----
 

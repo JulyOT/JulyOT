@@ -994,7 +994,7 @@ DeviceClient module = new DeviceClient(IotBrokerAddress, DeviceID, ModuleID, Sas
 
 ### Azure IoT Device Provisioning Service (DPS) support
 
-This SDK also supports the Azure IoT Device Provisioning Service. Group and individual provisioning scenarios are supported either with a symmetric key or with certificates. To understand the mechanism behind DPS, it is recommended to read the [documentation](https://docs.microsoft.com/azure/iot-dps/).
+This SDK also supports the Azure IoT Device Provisioning Service. Group and individual provisioning scenarios are supported either with a symmetric key or with certificates. To understand the mechanism behind DPS, it is recommended to read the [documentation](https://docs.microsoft.com/azure/iot-dps/?wt.mc_id=eventspg_16482_webpage_reactor).
 
 ### Provisioning using symmetric key
 

@@ -2,20 +2,9 @@ import React from 'react';
 import clsx from 'clsx';
 import styles from './styles.module.css';
 
-const FeatureList = [
-  {
-    title: '#JulyOT Blog',
-    // Svg: require('@site/static/img/svg/julyot.svg').default,
-    description: (
-      <>
-        Home of all the great content to help you celebrate #JulyOT
-      </>
-    ),
-    link: '/blog',
-  },
+const TopFeatureList = [
   {
     title: 'IoT Cloud Skills Challenge',
-    // Svg: require('@site/static/img/svg/image_medals.svg').default,
     description: (
       <>
       Skill yourself up in 31 days and complete the Cloud Skills Challenge
@@ -25,7 +14,6 @@ const FeatureList = [
   },
   {
     title: 'Digital swag',
-    // Svg: require('@site/static/img/svg/julyot.svg').default,
     description: (
       <>
       Grab some digital swag to get in the mood for #JulyOT
@@ -33,9 +21,11 @@ const FeatureList = [
     ),
     link: '/digitalswag',
   },
+];
+
+const BottomFeatureList = [
   {
     title: 'Live streams',
-    // Svg: require('@site/static/img/svg/webcam.svg').default,
     description: (
       <>
       Join IoT live streams throughout July
@@ -45,7 +35,6 @@ const FeatureList = [
   },
   {
     title: 'Meetups and events',
-    // Svg: require('@site/static/img/svg/livestream.svg').default,
     description: (
       <>
       Meet with like-minded folks at live and virtual IoT meetups
@@ -55,7 +44,6 @@ const FeatureList = [
   },
   {
     title: 'Resources',
-    // Svg: require('@site/static/img/svg/resources.svg').default,
     description: (
       <>
       Resources to get you started, or to continue on your journey with IoT
@@ -65,14 +53,22 @@ const FeatureList = [
   },
 ];
 
-function Feature({Svg, title, description, link}) {
+function TopFeature({Svg, title, description, link}) {
   return (
     <div className={clsx('col col--4')}>
-      {/* <div className="text--center">
-        <a href={link}>
-        <Svg className={styles.featureSvg} role="img" />
-        </a>
-      </div> */}
+      <div className="text--center padding-horiz--md">
+        <form action={link}>
+          <input type="submit" value={title} class="clean-btn button button--primary margin-left--md"/>
+        </form>
+        <p>{description}</p>
+      </div>
+    </div>
+  );
+}
+
+function BottomFeature({Svg, title, description, link}) {
+  return (
+    <div className={clsx('col col--4')}>
       <div className="text--center padding-horiz--md">
         <form action={link}>
           <input type="submit" value={title} class="clean-btn button button--primary margin-left--md"/>
@@ -88,8 +84,15 @@ export default function HomepageFeatures() {
     <section className={styles.features}>
       <div className="container">
         <div className="row">
-          {FeatureList.map((props, idx) => (
-            <Feature key={idx} {...props} />
+          <div className={clsx('col col--2')}></div>
+          {TopFeatureList.map((props, idx) => (
+            <TopFeature key={idx} {...props} />
+          ))}
+          <div className={clsx('col col--2')}></div>
+        </div>
+        <div className="row">
+          {BottomFeatureList.map((props, idx) => (
+            <BottomFeature key={idx} {...props} />
           ))}
         </div>
       </div>
