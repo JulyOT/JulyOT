@@ -4,10 +4,21 @@
         <title>#JulyOT Blog</title>
         <link>https://JulyOT.dev/blog</link>
         <description>#JulyOT Blog</description>
-        <lastBuildDate>Sat, 02 Jul 2022 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 04 Jul 2022 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[04: Detect the very big with the very small – counting bears with TinyML meetup from IoT North]]></title>
+            <link>https://JulyOT.dev/blog/julyot-day4</link>
+            <guid>julyot-day4</guid>
+            <pubDate>Mon, 04 Jul 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Welcome to Day 4 of #JulyOT!!]]></description>
+            <content:encoded><![CDATA[<blockquote><p>Welcome to Day 4 of <strong>#JulyOT</strong>!!</p></blockquote><p><img loading="lazy" alt="Page banner" src="/assets/images/JulyOT-banner-4-iot-north-165adf829cc81694d4fcdea9b9c94b91.png" width="1000" height="420" class="img_ev3q"></p><h1>Detect the very big with the very small – counting bears with TinyML meetup from IoT North</h1><p>Today we have a sneak peek at a meetup coming tomorrow (5th July), to give you time to sign up and join! This meetup event will be live streamed from IoT North, and starts on the 5th July at 6PM BST/10AM PDT.</p><a href="https://www.meetup.com/iot-leeds/events/285432970" target="_blank" rel="noopener noreferrer"><img loading="lazy" src="https://www.meetup.com/_next/image/?url=https%3A%2F%2Fsecure-content.meetupstatic.com%2Fimages%2Fclassic-events%2F503998355%2F676x380.webp&amp;w=3840&amp;q=75" alt="IoTNorth - Detect the very big with the very small – counting bears with TinyML, Tuesday July 5th, 6pm British Summer Time" class="img_ev3q"></a>&nbsp;<form action="https://www.meetup.com/iot-leeds/events/285432970" target="_blank"><input type="submit" value="Register on MeetUp" class="clean-btn button button--primary margin-left--md"></form><h2 class="anchor anchorWithStickyNavbar_LWe7" id="iot-north">IoT North<a class="hash-link" href="#iot-north" title="Direct link to heading">​</a></h2><p>IoT North is meetup for makers and developers working on all kinds of hardware and software projects around the Internet of Things (IoT). Come and talk about your projects, what you're working on and share experiences.</p><p>Now a part of IoT North - <a href="http://www.IoTNorth.uk" target="_blank" rel="noopener noreferrer">www.IoTNorth.uk</a> - giving businesses a North in IoT</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="what-this-meetup-is-about">What this meetup is about<a class="hash-link" href="#what-this-meetup-is-about" title="Direct link to heading">​</a></h2><p>Jim left the UK a few years ago to move to the Pacific North West of the US. Back in the UK the scariest animal he might have encountered would be a sudden hedgehog, but in Washington State where he lives it seems there are bears! He even lost an apple tree and a fence to one once.</p><p>A useful tool for him would be a bear detector – a device to alert him if there are bears in the garden. Such a tool could be built using an AI model trained in the cloud and running on a powerful computer. But who wants to risk a powerful computer outside when there are bears?</p><p>What if he could run a bear detector on a relatively inexpensive microcontroller, then see the results on a cloud dashboard?</p><p>This is where TinyML comes in! TinyML is shrinking AI models down very small, as in kilobytes in size, then running them on low power microcontrollers, or tiny computers like a Raspberry Pi Zero.</p><p>In this session Jim will train a bear detector using <a href="https://edgeimpulse.com" target="_blank" rel="noopener noreferrer">Edge Impulse</a>, an on-line development platform for TinyML models, taking advantage of their new FOMO object detection model. He’ll then show how to run this model on a low powered device, uploading the detection results to an Azure IoT Central dashboard.</p><p>By the end of this session, you will have an understanding of TinyML, how to train models, how to visualize data, and just how wary of bears Jim actually is…</p>]]></content:encoded>
+            <category>30days</category>
+            <category>iot</category>
+            <category>aiatedge</category>
+        </item>
         <item>
             <title><![CDATA[02: IoT for beginners]]></title>
             <link>https://JulyOT.dev/blog/julyot-day2</link>
