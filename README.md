@@ -8,7 +8,7 @@ To run this repo locally to test out changes:
 * Navigate to the `doc` folder, then run:
 
   ```sh
-  yarn init
+  yarn install
   ```
   
   This will download and configure everything.
