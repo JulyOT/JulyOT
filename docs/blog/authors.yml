@@ -35,11 +35,29 @@ jimb:
   url: https://github.com/jimbobbennett
   image_url: https://github.com/jimbobbennett.png
 
+jimmylai:
+  name: Jimmy Lai
+  title: CEO @M5Stack
+  url: https://github.com/m5stack
+  image_url: https://github.com/M5StackJimmyLai.png
+
+jose:
+  name: José Simões
+  title: CEO @Eclo Solutions
+  url: https://github.com/josesimoes
+  image_url: https://github.com/josesimoes.png
+
 laurent:
   name: Laurent Ellerbach
   title: Principal Engineering Manager @Microsoft
   url: https://github.com/ellerbach
   image_url: https://github.com/ellerbach.png
+
+liya:
+  name: Liya Du
+  title: Principal Program Manager @Microsoft
+  url: https://github.com/liydu
+  image_url: https://github.com/liydu.png
 
 neo:
   name: Neo Xiong
@@ -70,21 +88,3 @@ vanessa:
   title: Program Manager II @Microsoft
   url: https://github.com/vavilla
   image_url: https://github.com/vavilla.png
-
-jose:
-  name: José Simões
-  title: CEO @Eclo
-  url: https://github.com/josesimoes
-  image_url: https://github.com/josesimoes.png
-
-liya:
-  name: Liya Du
-  title: Principal Program Manager @Microsoft
-  url: https://github.com/liydu
-  image_url: https://github.com/liydu.png
-
-jimmylai:
-  name: Jimmy Lai
-  title: CEO @M5Stack
-  url: https://github.com/m5stack
-  image_url: https://github.com/M5StackJimmyLai.png

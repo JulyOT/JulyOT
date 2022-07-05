@@ -39,4 +39,4 @@ Validate your understanding and get a resume-ready credential for your expertise
 :::
 
 * [Build End-to-End IoT Solutions](https://www.youtube.com/playlist?list=PL1ljc761XCiZMLoKOWZ8YVq_u9DacV7sy) - YouTube Series with Pamela Cortez
-* [Exam AZ-220: Microsoft Azure IoT Developer](https://docs.microsoft.com/en-us/learn/certifications/exams/az-220)
+* [Exam AZ-220: Microsoft Azure IoT Developer](https://docs.microsoft.com/learn/certifications/exams/az-220?wt.mc_id=eventspg_16482_webpage_reactor)
