@@ -21,6 +21,7 @@
         <category label="30days" term="30days"/>
         <category label="iot" term="iot"/>
         <category label="iot4b" term="iot4b"/>
+        <category label="aiatedge" term="aiatedge"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[07: Plug and Play IoT device development with PnPFlow]]></title>
