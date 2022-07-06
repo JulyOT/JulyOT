@@ -4,10 +4,22 @@
         <title>#JulyOT Blog</title>
         <link>https://JulyOT.dev/blog</link>
         <description>#JulyOT Blog</description>
-        <lastBuildDate>Tue, 05 Jul 2022 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 06 Jul 2022 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[06: Edge Impulse Project of the Month competition]]></title>
+            <link>https://JulyOT.dev/blog/06-edge-impulse-competition</link>
+            <guid>06-edge-impulse-competition</guid>
+            <pubDate>Wed, 06 Jul 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Welcome to Day 6 of #JulyOT!!]]></description>
+            <content:encoded><![CDATA[<blockquote><p>Welcome to Day 6 of <strong>#JulyOT</strong>!!</p></blockquote><p><img loading="lazy" alt="Post banner" src="/assets/images/JulyOT-banner-6-edge-impulse-competition-803c3b923665bcfba0ab6017eb16bcfd.png" width="1000" height="420" class="img_ev3q"></p><h1>Edge Impulse challenge of the month - July</h1><p><a href="https://edgeimpulse.com" target="_blank" rel="noopener noreferrer">Edge Impulse</a> have announced their challenge of the month for July, perfecting timing for #JulyOT.</p><img src="/img/svg/edge-impulse-dark.svg" alt="Docusaurus themed image" class="themedImage_ToTc themedImage--light_HNdA"><img src="/img/svg/edge-impulse-light.svg" alt="Docusaurus themed image" class="themedImage_ToTc themedImage--dark_i4oU"><h2 class="anchor anchorWithStickyNavbar_LWe7" id="build-and-share-your-object-detection-project-in-minutes">Build and share your object detection project in minutes<a class="hash-link" href="#build-and-share-your-object-detection-project-in-minutes" title="Direct link to heading">​</a></h2><p>Public Projects help the community learn from each other, and teach developers and engineers how to solve real-world problems with Edge Impulse. This month we are asking developers to see what problems they can solve with object detection on tiny devices!</p><p>With object detection you are able to detect the presence and the position of any object within an image. Use our object detection pre-built ML block that leverages transfer learning to quickly get your device to detect the objects of your choice.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="win-prizes">Win prizes!<a class="hash-link" href="#win-prizes" title="Direct link to heading">​</a></h2><p>The top prize for the best project is $2000 and an entry into their annual competition to win a macBook Pro, AirPods and an Edge Impulse backpack. 2 runners up get $200.</p><p>You can find all the details and the rules on the <a href="https://edgeimpulse.com/projectofthemonth" target="_blank" rel="noopener noreferrer">Edge Impulse competition page</a>.</p><form action="https://edgeimpulse.com/projectofthemonth" target="_blank"><input type="submit" value="Learn more and enter" class="clean-btn button button--primary margin-left--md"></form>]]></content:encoded>
+            <category>30days</category>
+            <category>iot</category>
+            <category>aiatedge</category>
+            <category>embedded</category>
+        </item>
         <item>
             <title><![CDATA[05: Altair Everywhere]]></title>
             <link>https://JulyOT.dev/blog/julyot-day5-embedded</link>
