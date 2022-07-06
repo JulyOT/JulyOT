@@ -9,7 +9,7 @@ draft: true
 <head>
   <meta name="twitter:url" content="https://julyot.dev/blog/11-cohetes-de-agua" />
   <meta name="twitter:title" content="Cohetes de agua - Water rockets" />
-  <meta name="twitter:description" content="" />
+  <meta name="twitter:description" content="Entra en la carrera espacial con Arduino y cohetes de agua." />
   <meta name="twitter:image" content="https://julyot.dev/img/png/JulyOT-banner-11-cohetes-de-agua.png" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:creator" content="@Franciscodr" />
@@ -24,6 +24,9 @@ draft: true
 _This year we are also celebrating #JulIoT - JulyOT in Spanish!_
 
 ## Cohetes de agua
+
+¿Quieres ver o incluso entrar en la carrera espacial?
+Ahora puedes con los cohetes de agua automáticos. Hasta 100 metros de altura, captura de datos y despliegue automático de paracaídas con Arduino.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/C5G8b00kDKo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
