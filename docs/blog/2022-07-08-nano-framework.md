@@ -3,7 +3,7 @@ slug: 08-nano-framework
 title: "08: .NET nanoFramework GPIO, I2C, SPI and other IO support"
 authors: [laurent,jose]
 tags: [30days, iot, embeddediot]
-draft: true
+draft: false
 ---
 
 <head>
