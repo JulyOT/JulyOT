@@ -161,5 +161,9 @@ For example, reboot a device, or open a door lock.</li></ul><p>The modeling arch
         <category label="30days" term="30days"/>
         <category label="iot" term="iot"/>
         <category label="kickoff" term="kickoff"/>
+        <category label="iot4b" term="iot4b"/>
+        <category label="embeddediot" term="embeddediot"/>
+        <category label="aiatedge" term="aiatedge"/>
+        <category label="iotcerts" term="iotcerts"/>
     </entry>
 </feed>
