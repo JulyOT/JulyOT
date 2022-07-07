@@ -25,11 +25,7 @@ _Today we learn more about Azure Percept._
 
 # Learn Azure Percept from conference sessions
 
-Azure Percept is a comprehensive, easy-to-use platform with added security for creating edge AI solutions.
-
-Start your proof of concept in minutes with hardware accelerators built to integrate seamlessly with Azure AI and Azure IoT services.
-
-Azure Percept works out of the box with Azure Cognitive Services, Azure Machine Learning, and other Azure services to deliver vision and audio insights in real time.
+Azure Percept is a comprehensive, easy-to-use platform with added security for creating edge AI solutions. Start your proof of concept in minutes with hardware accelerators built to integrate seamlessly with Azure AI and Azure IoT services. Azure Percept works out of the box with Azure Cognitive Services, Azure Machine Learning, and other Azure services to deliver vision and audio insights in real time.
 
 To help you learn more about Azure Percept, we've curated a set of recorded sessions and blog posts from 3 different conferences.
 
