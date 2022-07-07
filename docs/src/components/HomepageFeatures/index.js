@@ -53,20 +53,7 @@ const BottomFeatureList = [
   },
 ];
 
-function TopFeature({Svg, title, description, link}) {
-  return (
-    <div className={clsx('col col--4')}>
-      <div className="text--center padding-horiz--md">
-        <form action={link}>
-          <input type="submit" value={title} class="clean-btn button button--primary margin-left--md"/>
-        </form>
-        <p>{description}</p>
-      </div>
-    </div>
-  );
-}
-
-function BottomFeature({Svg, title, description, link}) {
+function Feature({title, description, link}) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center padding-horiz--md">
@@ -83,16 +70,19 @@ export default function HomepageFeatures() {
   return (
     <section className={styles.features}>
       <div className="container">
+        <br/>
         <div className="row">
           <div className={clsx('col col--2')}></div>
           {TopFeatureList.map((props, idx) => (
-            <TopFeature key={idx} {...props} />
+            <Feature key={idx} {...props} />
           ))}
           <div className={clsx('col col--2')}></div>
         </div>
+        <br/>
+        <br/>
         <div className="row">
           {BottomFeatureList.map((props, idx) => (
-            <BottomFeature key={idx} {...props} />
+            <Feature key={idx} {...props} />
           ))}
         </div>
       </div>
