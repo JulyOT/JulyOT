@@ -1,25 +1,25 @@
 ---
-slug: 17-azure-percept-blog-posts
-title: "17: Unlimited possibilities with Azure Percept"
+slug: 18-azure-percept-blog-posts
+title: "18: Unlimited possibilities with Azure Percept"
 authors: [amira]
 tags: [30days, iot, aiatedge]
 draft: true
 ---
 
 <head>
-  <meta name="twitter:url" content="https://julyot.dev/blog/17-azure-percept-blog-posts" />
+  <meta name="twitter:url" content="https://julyot.dev/blog/18-azure-percept-blog-posts" />
   <meta name="twitter:title" content="Unlimited possibilities with Azure Percept" />
   <meta name="twitter:description" content="Unlimited possibilities with Azure Percept" />
-  <meta name="twitter:image" content="https://julyot.dev/img/png/JulyOT-banner-17-azure-percept-blog-posts.png" />
+  <meta name="twitter:image" content="https://julyot.dev/img/png/JulyOT-banner-18-azure-percept-blog-posts.png" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:creator" content="@Amiyouss1" />
   <meta name="twitter:site" content="@AzureAdvocates" /> 
-  <link rel="canonical" href="https://julyot.dev/blog/17-azure-percept-blog-posts" />
+  <link rel="canonical" href="https://julyot.dev/blog/18-azure-percept-blog-posts" />
 </head>
 
-> Welcome to Day 17 of **#JulyOT**!
+> Welcome to Day 18 of **#JulyOT**!
 
-![Page banner](/img/png/JulyOT-banner-17-azure-percept-blog-posts.png)
+![Page banner](/img/png/JulyOT-banner-18-azure-percept-blog-posts.png)
 
 _Today we learn more about the solutions that are possible with Azure Percept._
 

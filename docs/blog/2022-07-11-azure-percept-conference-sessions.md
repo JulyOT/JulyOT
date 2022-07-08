@@ -1,25 +1,25 @@
 ---
-slug: 10-azure-percept-conference-sessions
-title: "10: Learn Azure Percept from conference sessions"
+slug: 11-azure-percept-conference-sessions
+title: "11: Learn Azure Percept from conference sessions"
 authors: [amira]
 tags: [30days, iot, aiatedge]
 draft: true
 ---
 
 <head>
-  <meta name="twitter:url" content="https://julyot.dev/blog/10-azure-percept-conference-sessions" />
+  <meta name="twitter:url" content="https://julyot.dev/blog/11-azure-percept-conference-sessions" />
   <meta name="twitter:title" content="Learn Azure Percept from conference sessions" />
   <meta name="twitter:description" content="Learn Azure Percept from conference sessions" />
-  <meta name="twitter:image" content="https://julyot.dev/img/png/JulyOT-banner-10-azure-percept-conference-sessions.png" />
+  <meta name="twitter:image" content="https://julyot.dev/img/png/JulyOT-banner-11-azure-percept-conference-sessions.png" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:creator" content="@Amiyouss1" />
   <meta name="twitter:site" content="@AzureAdvocates" /> 
-  <link rel="canonical" href="https://julyot.dev/blog/10-azure-percept-conference-sessions" />
+  <link rel="canonical" href="https://julyot.dev/blog/11-azure-percept-conference-sessions" />
 </head>
 
-> Welcome to Day 10 of **#JulyOT**!
+> Welcome to Day 11 of **#JulyOT**!
 
-![Page banner](/img/png/JulyOT-banner-10-azure-percept-conference-sessions.png)
+![Page banner](/img/png/JulyOT-banner-11-azure-percept-conference-sessions.png)
 
 _Today we learn more about Azure Percept._
 
