@@ -4,10 +4,21 @@
         <title>#JulyOT Blog</title>
         <link>https://JulyOT.dev/blog</link>
         <description>#JulyOT Blog</description>
-        <lastBuildDate>Fri, 08 Jul 2022 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 09 Jul 2022 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[09: Getting Started with Microsoft Azure and CircuitPython]]></title>
+            <link>https://JulyOT.dev/blog/09-azure-circuit-python</link>
+            <guid>09-azure-circuit-python</guid>
+            <pubDate>Sat, 09 Jul 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Welcome to Day 9 of #JulyOT!]]></description>
+            <content:encoded><![CDATA[<blockquote><p>Welcome to Day 9 of <strong>#JulyOT</strong>!</p></blockquote><p><img loading="lazy" alt="Page banner" src="/assets/images/JulyOT-banner-9-azure-circuitpython-0a122bfa6958f7b192e507feb20c91a0.png" width="1000" height="420" class="img_ev3q"></p><p><em>Today we learn about using Azure IoT with Circuit Python.</em></p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="getting-started-with-microsoft-azure-and-circuitpython">Getting Started with Microsoft Azure and CircuitPython<a class="hash-link" href="#getting-started-with-microsoft-azure-and-circuitpython" title="Direct link to heading">​</a></h2><p>Learn how to use Microsoft Azure IoT with CircuitPython! If you are an embedded developer who loves CircuitPython and want to connect to the cloud, then <a href="https://learn.adafruit.com/getting-started-with-microsoft-azure-and-circuitpython" target="_blank" rel="noopener noreferrer">this guide on the Adafruit Learn platform</a> is for you.</p><p>This guide will walk you through how to get started with Microsoft Azure using a Feather ESP32-S2 TFT and a BME688 sensor to monitor temperature, humidity and air pressure. The data is logged to Microsoft Azure every fifteen minutes and can be viewed on a dashboard.</p><form action="https://learn.adafruit.com/getting-started-with-microsoft-azure-and-circuitpython" target="_blank"><input type="submit" value="Take me to the guide" class="clean-btn button button--primary margin-left--md"></form>]]></content:encoded>
+            <category>30days</category>
+            <category>iot</category>
+            <category>iot4b</category>
+        </item>
         <item>
             <title><![CDATA[08: IoT for Beginners lesson 2!]]></title>
             <link>https://JulyOT.dev/blog/08-julyot-iot-beginners</link>
@@ -31,7 +42,7 @@
             <category>embeddediot</category>
         </item>
         <item>
-            <title><![CDATA[07: A Closed Captioning Example on RaspberryPi using Azure Cognitive services]]></title>
+            <title><![CDATA[07: A Closed Captioning Example on Raspberry Pi using Azure Cognitive services]]></title>
             <link>https://JulyOT.dev/blog/07-closed-captioning-rpi</link>
             <guid>07-closed-captioning-rpi</guid>
             <pubDate>Thu, 07 Jul 2022 00:00:00 GMT</pubDate>
