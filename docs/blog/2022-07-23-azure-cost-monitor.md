@@ -1,25 +1,25 @@
 ---
-slug: 13-azure-cost-monitor
-title: "13: Azure cost monitor"
+slug: 23-azure-cost-monitor
+title: "23: Azure cost monitor"
 authors: [jen]
 tags: [30days, iot, embedded]
 draft: true
 ---
 
 <head>
-  <meta name="twitter:url" content="https://julyot.dev/blog/13-azure-cost-monitor" />
+  <meta name="twitter:url" content="https://julyot.dev/blog/23-azure-cost-monitor" />
   <meta name="twitter:title" content="Azure cost monitor" />
   <meta name="twitter:description" content="Build a hardware Azure cost monitor" />
-  <meta name="twitter:image" content="https://julyot.dev/img/png/JulyOT-banner-13-azure-cost-monitor.png" />
+  <meta name="twitter:image" content="https://julyot.dev/img/png/JulyOT-banner-23-azure-cost-monitor.png" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:creator" content="@jimbobbennett" />
   <meta name="twitter:site" content="@AzureAdvocates" /> 
-  <link rel="canonical" href="https://julyot.dev/blog/13-azure-cost-monitor" />
+  <link rel="canonical" href="https://julyot.dev/blog/23-azure-cost-monitor" />
 </head>
 
-> Welcome to Day 13 of **#JulyOT**!!
+> Welcome to Day 23 of **#JulyOT**!!
 
-![Welcome banner](/img/png/JulyOT-banner-13-azure-cost-monitor.png)
+![Welcome banner](/img/png/JulyOT-banner-23-azure-cost-monitor.png)
 
 _Monitor your cloud costs using this e-paper Azure cost monitor._
 
