@@ -3,7 +3,7 @@ slug: 11-cohetes-de-agua
 title: "11: Cohetes de agua - Water rockets!"
 authors: [francisco]
 tags: [30days, iot, iot4b, juliot]
-draft: true
+draft: false
 ---
 
 <head>
