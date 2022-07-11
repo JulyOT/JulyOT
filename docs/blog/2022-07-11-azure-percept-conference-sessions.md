@@ -3,7 +3,7 @@ slug: 11-azure-percept-conference-sessions
 title: "11: Learn Azure Percept from conference sessions"
 authors: [amira]
 tags: [30days, iot, aiatedge]
-draft: true
+draft: false
 ---
 
 <head>
