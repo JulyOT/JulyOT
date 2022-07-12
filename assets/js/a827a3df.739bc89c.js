@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[9328],{499:function(e){e.exports=JSON.parse('{"permalink":"/blog/tags/iot-4-b/page/9","page":9,"postsPerPage":1,"totalPages":9,"totalCount":9,"previousPage":"/blog/tags/iot-4-b/page/8","blogDescription":"Blog","blogTitle":"Blog"}')}}]);
