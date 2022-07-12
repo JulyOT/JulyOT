@@ -3,7 +3,7 @@ slug: 13-iot-ama
 title: "13: Ask Me Anything at Reactor: Azure IoT!"
 authors: [bruno, mariaanastasia]
 tags: [30days, iot, iot4b]
-draft: true
+draft: false
 ---
 
 <head>
