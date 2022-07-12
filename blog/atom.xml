@@ -2,11 +2,30 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://JulyOT.dev/blog</id>
     <title>#JulyOT Blog</title>
-    <updated>2022-07-12T00:00:00.000Z</updated>
+    <updated>2022-07-13T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://JulyOT.dev/blog"/>
     <subtitle>#JulyOT Blog</subtitle>
     <icon>https://JulyOT.dev/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[13: Ask Me Anything at Reactor: Azure IoT!]]></title>
+        <id>13-iot-ama</id>
+        <link href="https://JulyOT.dev/blog/13-iot-ama"/>
+        <updated>2022-07-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Welcome to Day 13 of #JulyOT!!]]></summary>
+        <content type="html"><![CDATA[<blockquote><p>Welcome to Day 13 of <strong>#JulyOT</strong>!!</p></blockquote><p><img loading="lazy" alt="Welcome banner" src="/assets/images/JulyOT-banner-13-ama-reactor-a0542a7b25f306b90a4d181d324c0d55.png" width="1000" height="420" class="img_ev3q"></p><p><em>Get your IoT questions answered by experts.</em></p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="ask-me-anything-at-reactor-azure-iot">Ask Me Anything at Reactor: Azure IoT<a class="hash-link" href="#ask-me-anything-at-reactor-azure-iot" title="Direct link to heading">​</a></h2><p>This session is part of a series of Ask Me Anything at Reactor sessions that are giving us a platform to share stories, listen, ask respectful questions, and continue on our journey to improve and collaborate with User Groups and Online Communities.</p><p>Join us as we welcome our speakers Bruno Capuano and Maria-Anastasia Moustaka to the Ask Me Anything stage. They will be sharing their knowledge on Azure IoT and a variety of other topics.</p><p>Register to watch this event live at 9am on Thursday July 14th, or catch the recording!</p><a href="https://www.meetup.com/microsoft-reactor-redmond/events/285829306/" target="_blank" rel="noopener noreferrer"><img loading="lazy" src="https://www.meetup.com/_next/image/?url=https%3A%2F%2Fsecure-content.meetupstatic.com%2Fimages%2Fclassic-events%2F505180518%2F676x380.webp&amp;w=3840&amp;q=75" alt="AMA - Ask Me Anything at Reactor: Azure IoT, Thursday July 14th, 9am Pacific Time" class="img_ev3q"></a>&nbsp;<table><tbody><tr style="border:0px;background-color:#00000000"><td style="border:0px;text-align:center"><form action="https://www.meetup.com/microsoft-reactor-redmond/events/285829306/" target="_blank"><input type="submit" value="Register on MeetUp" class="clean-btn button button--primary margin-left--md"></form></td><td style="border:0px;text-align:center"><form action="https://aka.ms/June23AMAAzureIoT" target="_blank"><input type="submit" value="Watch on YouTube" class="clean-btn button button--secondary margin-left--md"></form></td></tr></tbody></table>]]></content>
+        <author>
+            <name>Bruno Capuano</name>
+            <uri>https://github.com/elbruno</uri>
+        </author>
+        <author>
+            <name>Maria-Anastasia Moustaka</name>
+            <uri>https://github.com/mariamou7</uri>
+        </author>
+        <category label="30days" term="30days"/>
+        <category label="iot" term="iot"/>
+        <category label="iot4b" term="iot4b"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[12: AI-powered predictive maintenance with Azure Sphere]]></title>
         <id>julyot-day12-embedded</id>
