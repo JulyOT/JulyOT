@@ -2,11 +2,32 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://JulyOT.dev/blog</id>
     <title>#JulyOT Blog</title>
-    <updated>2022-07-13T00:00:00.000Z</updated>
+    <updated>2022-07-14T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://JulyOT.dev/blog"/>
     <subtitle>#JulyOT Blog</subtitle>
     <icon>https://JulyOT.dev/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[14: AMA: IoT, cows, AI and poop - Jim discusses IoT in farming with Bryn Lewis]]></title>
+        <id>14-iot-cow</id>
+        <link href="https://JulyOT.dev/blog/14-iot-cow"/>
+        <updated>2022-07-14T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Welcome to Day 14 of #JulyOT!!]]></summary>
+        <content type="html"><![CDATA[<blockquote><p>Welcome to Day 14 of <strong>#JulyOT</strong>!!</p></blockquote><p><img loading="lazy" alt="Welcome banner" src="/assets/images/JulyOT-banner-14-iot-cow-2128acc83e23e4a5d01496834a83428a.png" width="1000" height="420" class="img_ev3q"></p><p><em>Join in the conversation and ask out IoT experts about digital agriculture.</em></p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="ama-iot-cows-ai-and----jim-discusses-iot-in-farming-with-bryn-lewis">AMA: IoT, cows, AI and 💩 - Jim discusses IoT in farming with Bryn Lewis<a class="hash-link" href="#ama-iot-cows-ai-and----jim-discusses-iot-in-farming-with-bryn-lewis" title="Direct link to heading">​</a></h2><p>Digital agriculture is a massively important use case for IoT. From simple solutions monitoring soil moisture levels to control watering, to complex AI solutions for animal health, IoT is helping farmers bring food to the tables of the growing world.</p><p>In this session, Jim is joined by Bryn Lewis, a Microsoft MVP and IoT expert who is working with farms in New Zealand to implement solutions using AI and IoT. Jim and Bryn will dive into some of the cool projects that Bryn is working on, discussing how AI and IoT can improve cow health, make milking easier, and even reduce water usage for cleanup, all within a hostile environment with wide temperature variances throughout the year, and way too much poop.</p><p>Join us for this AMA style conversation, and bring your own questions on digital agriculture to get answered by our Kiwi expert.</p><p>Register to watch this event live at 3pm PT on Tuesday July 19th, or catch the recording!</p><a href="https://www.meetup.com/microsoft-reactor-redmond/events/287072771/" target="_blank" rel="noopener noreferrer"><img loading="lazy" src="https://www.meetup.com/_next/image/?url=https%3A%2F%2Fsecure-content.meetupstatic.com%2Fimages%2Fclassic-events%2F505401361%2F676x380.webp&amp;w=3840&amp;q=75" alt="AMA - Ask Me Anything at Reactor: Azure IoT, Thursday July 14th, 9am Pacific Time" class="img_ev3q"></a>&nbsp;<table><tbody><tr style="border:0px;background-color:#00000000"><td style="border:0px;text-align:center"><form action="https://www.meetup.com/microsoft-reactor-redmond/events/287072771/" target="_blank"><input type="submit" value="Register on MeetUp" class="clean-btn button button--primary margin-left--md"></form></td><td style="border:0px;text-align:center"><form action="https://www.youtube.com/watch?v=EkCygi4o2rM" target="_blank"><input type="submit" value="Watch on YouTube" class="clean-btn button button--secondary margin-left--md"></form></td></tr></tbody></table>]]></content>
+        <author>
+            <name>Jim Bennett</name>
+            <uri>https://github.com/jimbobbennett</uri>
+        </author>
+        <author>
+            <name>Bryn Lewis</name>
+            <uri>https://github.com/kiwibryn</uri>
+        </author>
+        <category label="30days" term="30days"/>
+        <category label="iot" term="iot"/>
+        <category label="iot4b" term="iot4b"/>
+        <category label="atatedge" term="atatedge"/>
+        <category label="embedded" term="embedded"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[13: Ask Me Anything at Reactor: Azure IoT!]]></title>
         <id>13-iot-ama</id>
