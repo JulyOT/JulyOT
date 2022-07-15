@@ -3,7 +3,7 @@ slug: 15-nano-framework
 title: "15: .NET nanoFramework networking and Azure"
 authors: [laurent,jose]
 tags: [30days, iot, embeddediot]
-draft: true
+draft: false
 ---
 
 <head>
