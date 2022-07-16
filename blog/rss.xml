@@ -4,10 +4,21 @@
         <title>#JulyOT Blog</title>
         <link>https://JulyOT.dev/blog</link>
         <description>#JulyOT Blog</description>
-        <lastBuildDate>Fri, 15 Jul 2022 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 16 Jul 2022 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[16: IoT Device Selection List for Prototyping]]></title>
+            <link>https://JulyOT.dev/blog/16-iot-devices-for-prototyping</link>
+            <guid>16-iot-devices-for-prototyping</guid>
+            <pubDate>Sat, 16 Jul 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Welcome to Day 16 of #JulyOT!]]></description>
+            <content:encoded><![CDATA[<blockquote><p>Welcome to Day 16 of <strong>#JulyOT</strong>!</p></blockquote><p><img loading="lazy" alt="Page banner" src="/assets/images/JulyOT-banner-16-iot-devices-for-prototyping-b8b930a1ea1f3ab3c626ec1accb8c796.png" width="1000" height="420" class="img_ev3q"></p><p><em>Today we share a list of IoT devices for prototyping your IoT application.</em></p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="iot-devices-for-prototyping">IoT devices for prototyping<a class="hash-link" href="#iot-devices-for-prototyping" title="Direct link to heading">​</a></h2><p>The MakeIt team at Microsoft is there to support the maker community, helping you to get your makes and prototypes built quicker with the best in class tools you need.</p><p>One way we are helping makers is sharing a list of IoT devices for prototyping your IoT application. This list aims to give partners a starting point with IoT hardware to build prototypes and proof-of-concepts quickly and easily.</p><p>This list is in an Excel spreadsheet, and is available from the <a href="https://github.com/microsoft/MakerCommunityResources" target="_blank" rel="noopener noreferrer">Microsoft Maker Community Resources repo on GitHub</a>.</p><form action="https://github.com/microsoft/MakerCommunityResources/raw/main/IoT/IoT%20Device%20Selection%20List%20for%20Prototyping.xlsx" target="_blank"><input type="submit" value="Download the list from GitHub" class="clean-btn button button--primary margin-left--md"></form>]]></content:encoded>
+            <category>30days</category>
+            <category>iot</category>
+            <category>iot4b</category>
+        </item>
         <item>
             <title><![CDATA[15: IoT for Beginners lesson 3!]]></title>
             <link>https://JulyOT.dev/blog/15-julyot-iot-beginners</link>
