@@ -3,7 +3,7 @@ slug: 18-azure-percept-blog-posts
 title: "18: Unlimited possibilities with Azure Percept"
 authors: [amira]
 tags: [30days, iot, aiatedge]
-draft: true
+draft: false
 ---
 
 <head>
