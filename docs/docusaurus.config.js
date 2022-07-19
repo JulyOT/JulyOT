@@ -71,7 +71,7 @@ const config = {
         minHeadingLevel: 2,
         maxHeadingLevel: 3,
       },
-      metadata: [{name: 'msvalidate.01', content: '7EBB3CA4C71A21C77534F4358EAE87A2'}],
+      metadata: [{ name: 'msvalidate.01', content: '7EBB3CA4C71A21C77534F4358EAE87A2' }, { name: 'keywords', content: 'iot, internet of things, julyot, ai, embedded' }],
       image: 'img/png/julyot-card.png',
       navbar: {
         title: '#JulyOT',
@@ -80,14 +80,14 @@ const config = {
           src: 'img/svg/julyot.svg',
         },
         items: [
-          { to: '/blog', label: 'Blog', position: 'left'},
-          { to: '/skills', label: 'Cloud Skills', position: 'right'},
-          { to: '/digitalswag', label: 'Digital Swag', position: 'right'},
+          { to: '/blog', label: 'Blog', position: 'left' },
+          { to: '/skills', label: 'Cloud Skills', position: 'right' },
+          { to: '/digitalswag', label: 'Digital Swag', position: 'right' },
           // { to: '/videos', label: 'Videos', position: 'right'},
-          { to: '/livestreams', label: 'Live Streams', position: 'right'},
-          { to: '/meetups', label: 'Meetups and Events', position: 'right'},
+          { to: '/livestreams', label: 'Live Streams', position: 'right' },
+          { to: '/meetups', label: 'Meetups and Events', position: 'right' },
           // { to: '/roadmap', label: 'Roadmap', position: 'right'},
-          { to: '/resources', label: 'Resources', position: 'right'},
+          { to: '/resources', label: 'Resources', position: 'right' },
           {
             type: 'dropdown',
             label: 'Archives',
@@ -177,7 +177,7 @@ const config = {
       },
     }),
   // CONFIG-END #3: Theme
- 
+
 
   // CONFIG-START #4: Plugins  
   plugins: [
