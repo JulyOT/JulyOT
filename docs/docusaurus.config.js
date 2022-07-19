@@ -71,6 +71,7 @@ const config = {
         minHeadingLevel: 2,
         maxHeadingLevel: 3,
       },
+      metadata: [{name: 'msvalidate.01', content: '7EBB3CA4C71A21C77534F4358EAE87A2'}],
       image: 'img/png/julyot-card.png',
       navbar: {
         title: '#JulyOT',
