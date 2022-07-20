@@ -1,35 +1,36 @@
 ---
-slug: julyot-day19-az220
-title: "19: Microsoft Certified - Azure IoT Developer Specialty"
-authors: [Diana]
-tags: [30days, iot, az220]
+slug: julyot-day21-az220
+title: "21: Microsoft Certified - Azure IoT Developer Specialty"
+authors: [diana]
+tags: [30days, iot, az220, iotcerts]
 draft: true
 ---
 
 <head>
-  <meta name="twitter:url" content="https://julyot.dev/blog/julyot-day19-az220-intro" />
+  <meta name="twitter:url" content="https://julyot.dev/blog/julyot-day21-az220-intro" />
   <meta name="twitter:title" content="Microsoft Certified - Azure IoT Developer Specialty" />
   <meta name="twitter:description" content="Earn your Azure IoT Developer Specialty certification by passing only one exam: AZ-220 – Microsoft Azure IoT Developer" />
-  <meta name="twitter:image" content="https://julyot.dev/img/png/JulyOT-banner-19-az220-intro.png" />
+  <meta name="twitter:image" content="https://julyot.dev/img/png/JulyOT-banner-21-az220-intro.png" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:creator" content="@utahitpro" />
   <meta name="twitter:site" content="@AzureAdvocates" />
-  <link rel="canonical" href="https://julyot.dev/blog/julyot-day19-az220-intro" />
+  <link rel="canonical" href="https://julyot.dev/blog/julyot-day21-az220-intro" />
 </head>
 
-> Welcome to Day 19 of **#JulyOT**!!
+> Welcome to Day 21 of **#JulyOT**!!
 
-![Post banner](/img/png/JulyOT-banner-19-az220-intro.png)
+![Post banner](/img/png/JulyOT-banner-21-az220-intro.png)
 
 _Now that you've been learning all about IoT during #JulyOT, it's time to consider certification!_
 
-Whether you’re a student wanting to validate your expertise in IoT or a professional IoT solution developer looking to stand out from the crowd, the [Azure IoT Developer Specialty certification](https://docs.microsoft.com/en-us/learn/certifications/exams/az-220?WT.mc_id=julyot) may be perfect for you! This certification involves passing only one exam: [AZ-220 – Microsoft Azure IoT Developer](https://docs.microsoft.com/en-us/certifications/exams/az-220)
+Whether you’re a student wanting to validate your expertise in IoT or a professional IoT solution developer looking to stand out from the crowd, the [Azure IoT Developer Specialty certification](https://docs.microsoft.com/learn/certifications/exams/az-220?wt.mc_id=eventspg_16482_webpage_reactor) may be perfect for you! This certification involves passing only one exam: [AZ-220 – Microsoft Azure IoT Developer](https://docs.microsoft.com/certifications/exams/az-220?wt.mc_id=eventspg_16482_webpage_reactor)
 
 ![Specialty Azure IoT Developer](/img/jpg/specialty-azure-iot-developer.jpg)
 
 ## Skills Measured
 
 The AZ-220 exam measures your ability to:
+
 * Set up the IoT solution infrastructure (10-15%)
 * Provision and manage devices (15-20%)
 * Implement IoT Edge (15-20%)
@@ -42,4 +43,4 @@ Stay tuned as we share resources for each of these exam areas throughout the res
 
 ## Get Started
 
-Visit the [AZ-220 – Microsoft Azure IoT Developer](https://docs.microsoft.com/en-us/certifications/exams/az-220) exam page to learn more.
+Visit the [AZ-220 – Microsoft Azure IoT Developer](https://docs.microsoft.com/certifications/exams/az-220?wt.mc_id=eventspg_16482_webpage_reactor) exam page to learn more.
