@@ -65,6 +65,12 @@ jose:
   url: https://github.com/josesimoes
   image_url: https://github.com/josesimoes.png
 
+josh:
+  name: Josh Ndemenge
+  title: Cloud Advocate @Microsoft
+  url: https://github.com/Jcardif
+  image_url: https://github.com/Jcardif.png
+
 laurent:
   name: Laurent Ellerbach
   title: Principal Engineering Manager @Microsoft

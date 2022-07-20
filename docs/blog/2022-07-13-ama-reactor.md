@@ -29,23 +29,6 @@ This session is part of a series of Ask Me Anything at Reactor sessions that are
 
 Join us as we welcome our speakers Bruno Capuano and Maria-Anastasia Moustaka to the Ask Me Anything stage. They will be sharing their knowledge on Azure IoT and a variety of other topics.
 
-Register to watch this event live at 9am on Thursday July 14th, or catch the recording!
+Catch the recording on the Microsoft Reactor YouTube channel!
 
-<a href='https://www.meetup.com/microsoft-reactor-redmond/events/285829306/'>
-<img src='https://www.meetup.com/_next/image/?url=https%3A%2F%2Fsecure-content.meetupstatic.com%2Fimages%2Fclassic-events%2F505180518%2F676x380.webp&w=3840&q=75'  alt='AMA - Ask Me Anything at Reactor: Azure IoT, Thursday July 14th, 9am Pacific Time'/>
-</a>&nbsp;
-
-<table>
-<tr style={{border:'0px', 'background-color':'#00000000'}}>
-    <td style={{border:'0px', 'text-align': 'center'}}>
-        <form action="https://www.meetup.com/microsoft-reactor-redmond/events/285829306/" target="_blank">
-            <input type="submit" value="Register on MeetUp" class="clean-btn button button--primary margin-left--md"/>
-        </form>
-    </td>
-    <td style={{border:'0px', 'text-align': 'center'}}>
-        <form action="https://aka.ms/June23AMAAzureIoT" target="_blank">
-            <input type="submit" value="Watch on YouTube" class="clean-btn button button--secondary margin-left--md"/>
-        </form>
-    </td>
-</tr>
-</table>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/__Ky0TmZfak" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
