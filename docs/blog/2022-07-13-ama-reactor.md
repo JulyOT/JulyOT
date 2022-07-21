@@ -3,7 +3,7 @@ slug: 13-iot-ama
 title: "13: Ask Me Anything at Reactor: Azure IoT!"
 authors: [bruno, mariaanastasia]
 tags: [30days, iot, iot4b]
-draft: true
+draft: false
 ---
 
 <head>
@@ -27,7 +27,7 @@ _Get your IoT questions answered by experts._
 
 This session is part of a series of Ask Me Anything at Reactor sessions that are giving us a platform to share stories, listen, ask respectful questions, and continue on our journey to improve and collaborate with User Groups and Online Communities.
 
-Join us as we welcome our speaker Bruno Capuano to the Ask Me Anything stage. He will be sharing their knowledge on Azure Functions and a variety of other topics.
+Join us as we welcome our speakers Bruno Capuano and Maria-Anastasia Moustaka to the Ask Me Anything stage. They will be sharing their knowledge on Azure IoT and a variety of other topics.
 
 Register to watch this event live at 9am on Thursday July 14th, or catch the recording!
 

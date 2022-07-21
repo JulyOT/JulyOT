@@ -3,7 +3,7 @@ slug: 16-iot-devices-for-prototyping
 title: "16: IoT Device Selection List for Prototyping"
 authors: [jen]
 tags: [30days, iot, iot4b]
-draft: true
+draft: false
 ---
 
 <head>
