@@ -3,7 +3,7 @@ slug: julyot-day23-az220
 title: "23: Exam AZ-220 Study Guide - Set up the IoT solution infrastructure"
 authors: [diana]
 tags: [30days, iot, az220, iotcerts]
-draft: true
+draft: false
 ---
 
 <head>

@@ -3,7 +3,7 @@ slug: 23-azure-cost-monitor
 title: "23: Azure cost monitor"
 authors: [jen]
 tags: [30days, iot, embedded]
-draft: true
+draft: false
 ---
 
 <head>
