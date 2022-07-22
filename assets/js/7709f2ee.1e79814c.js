@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[6385],{4420:function(s){s.exports=JSON.parse('{"label":"pnp","permalink":"/blog/tags/pnp","allTagsPath":"/blog/tags","count":1}')}}]);

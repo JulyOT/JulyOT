@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[3036],{93820:function(o){o.exports=JSON.parse('{"permalink":"/blog/tags/bonsai","page":1,"postsPerPage":1,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

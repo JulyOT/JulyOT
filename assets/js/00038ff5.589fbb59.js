@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[8471],{18157:function(a){a.exports=JSON.parse('{"label":"atatedge","permalink":"/blog/tags/atatedge","allTagsPath":"/blog/tags","count":1}')}}]);
