@@ -27,6 +27,8 @@ _Monitor your cloud costs using this e-paper Azure cost monitor._
 
 When using Microsoft Azure services, it's helpful to know how much you're spending on a day-to-day basis. This Azure cost monitor uses the low-power, wireless Adafruit MagTag board to display a daily cost forecast for your Azure subscription.
 
+![](/img/jpg/cost_monitor.jpg)
+
 This project is intended to show you how to use the Azure cost management API. Take a look at this project and adapt it to fit your needs!
 
 _Please note that it's only possible to get a cost forecast - actual costs are only available once you're billed._
