@@ -3,7 +3,7 @@ slug: 22-nano-framework
 title: "22: Building .NET nanoFramework and interoperability"
 authors: [laurent,jose]
 tags: [30days, iot, embeddediot]
-draft: true
+draft: false
 ---
 
 <head>
