@@ -3,7 +3,7 @@ slug: julyot-day24-az220
 title: "24: Exam AZ-220 Study Guide - Provision and Manage Devices"
 authors: [diana]
 tags: [30days, iot, az220, iotcerts]
-draft: true
+draft: false
 ---
 
 <head>
