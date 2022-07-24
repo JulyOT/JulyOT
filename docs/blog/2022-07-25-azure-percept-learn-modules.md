@@ -3,7 +3,7 @@ slug: 25-azure-percept-learn-modules
 title: "25: Azure Percept Learn Path"
 authors: [amira]
 tags: [30days, iot, aiatedge, iotcerts]
-draft: true
+draft: false
 ---
 
 <head>
