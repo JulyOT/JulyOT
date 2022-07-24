@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[9699],{56230:function(e){e.exports=JSON.parse('{"permalink":"/blog/tags/aiatedge/page/8","page":8,"postsPerPage":1,"totalPages":10,"totalCount":10,"previousPage":"/blog/tags/aiatedge/page/7","nextPage":"/blog/tags/aiatedge/page/9","blogDescription":"Blog","blogTitle":"Blog"}')}}]);
