@@ -3,7 +3,7 @@ slug: julyot-day25-az220
 title: "25: Exam AZ-220 Study Guide - Implement IoT Edge"
 authors: [diana]
 tags: [30days, iot, az220, iotcerts]
-draft: true
+draft: false
 ---
 
 <head>
