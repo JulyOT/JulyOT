@@ -29,4 +29,4 @@ Accelerate edge AI with Azure Percept and other services to simplify AI and ML t
 
 Check out this video from [Microsoft Inspire](https://inspire.microsoft.com/) to learn more:
 
-[![Click here for the video](/img/png/azure-percept-inspire.png)](https://inspire.microsoft.com/en-US/sessions/99883333-1a37-4251-9dcf-5808ef39dc9d?wt.mc_id=eventspg_16482_webpage_reactor)
+[![Click here for the video](/img/png/azure-percept-inspire.png)](https://inspire.microsoft.com/sessions/99883333-1a37-4251-9dcf-5808ef39dc9d?wt.mc_id=eventspg_16482_webpage_reactor)
