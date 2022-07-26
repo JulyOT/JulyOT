@@ -21,7 +21,7 @@ draft: true
 
 ![Post banner](/img/png/JulyOT-banner-28-az220-monitor-troubleshoot-optimize.png)
 
-_This is part 6 of a series of posts to help you pass the AZ-220 Azure IoT Developer specialty exam. 5-10% of the AZ-220 exam will measure your ability to monitor, troubleshoot, and optimize IoT solutions._
+_This is part 6 of a series of posts to help you pass the AZ-220 Azure IoT Developer specialty exam. 15-20% of the AZ-220 exam will measure your ability to monitor, troubleshoot, and optimize IoT solutions._
 
 The Microsoft Global Partner Solutions (GPS) Technical Team, IoT Product Group, IoT Advocates, and Microsoft Worldwide Learning have collaborated to create this guide to help you prepare for the Microsoft Azure IoT Developer exam!
 
