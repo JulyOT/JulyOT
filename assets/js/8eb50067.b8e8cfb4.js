@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[3301],{95409:function(e){e.exports=JSON.parse('{"permalink":"/blog/tags/embeddediot/page/3","page":3,"postsPerPage":1,"totalPages":10,"totalCount":10,"previousPage":"/blog/tags/embeddediot/page/2","nextPage":"/blog/tags/embeddediot/page/4","blogDescription":"Blog","blogTitle":"Blog"}')}}]);

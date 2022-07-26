@@ -21,6 +21,19 @@
             <category>iotcerts</category>
         </item>
         <item>
+            <title><![CDATA[27: Building Industrial IoT applications with the Microsoft Cloud]]></title>
+            <link>https://JulyOT.dev/blog/build-industrial-iot</link>
+            <guid>build-industrial-iot</guid>
+            <pubDate>Wed, 27 Jul 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Welcome to Day 27 of #JulyOT!!]]></description>
+            <content:encoded><![CDATA[<blockquote><p>Welcome to Day 27 of <strong>#JulyOT</strong>!!</p></blockquote><p><img loading="lazy" alt="Post banner" src="/assets/images/JulyOT-banner-27-build-industrial-iot-769e90101fbcfc30812fee3b56e01ca6.png" width="1000" height="420" class="img_ev3q"></p><p><em>Here is your starting point to learn how the Microsoft Cloud for manufacturing and underlying Industrial IoT platform can help manufacturers implement secure and pervasive IIoT solutions.</em></p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="industrial-iot-and-microsoft">Industrial IoT and Microsoft<a class="hash-link" href="#industrial-iot-and-microsoft" title="Direct link to heading">​</a></h2><p>Manufacturers are pressured to innovate and digitally transform to keep up with the rapid pace of their markets, competition, supply chain pressures, worker shortage and productivity requirements. For that they need to leverage IoT that makes all this possible at scale. But to do this, manufacturers need to learn an all-new set of skills and technologies to best leverage this promise.
+We put together a comprehensive series of short videos walking through the shared challenges manufacturers are facing and how the Microsoft Cloud for manufacturing, powered by Azure and its IoT services, can help them transition into this new era of digitalization.</p><p>Read more about this on our <a href="https://techcommunity.microsoft.com/t5/internet-of-things-blog/building-industrial-iot-applications-with-the-microsoft-cloud/ba-p/3581996?wt.mc_id=eventspg_16482_webpage_reactor" target="_blank" rel="noopener noreferrer">industrial IoT and Microsoft Blog post on the Microsoft IoT Tech Community</a>.</p><form action="https://techcommunity.microsoft.com/t5/internet-of-things-blog/building-industrial-iot-applications-with-the-microsoft-cloud/ba-p/3581996?wt.mc_id=eventspg_16482_webpage_reactor" target="_blank"><input type="submit" value="Check out the blog post on the Microsoft IoT Tech Community" class="clean-btn button button--primary margin-left--md"></form>]]></content:encoded>
+            <category>30days</category>
+            <category>iot</category>
+            <category>aiatedge</category>
+            <category>embeddediot</category>
+        </item>
+        <item>
             <title><![CDATA[26: Exam AZ-220 Study Guide - Implement Business Integration]]></title>
             <link>https://JulyOT.dev/blog/julyot-day26-az220</link>
             <guid>julyot-day26-az220</guid>
