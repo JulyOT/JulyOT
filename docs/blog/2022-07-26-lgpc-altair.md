@@ -3,7 +3,7 @@ slug: 26-lgpc-altair
 title: "26: Let's get personal: Computing - Retro computing with Dave Glover and the Altair 8800"
 authors: [jimb]
 tags: [30days, iot, embedded]
-draft: true
+draft: false
 ---
 
 <head>
