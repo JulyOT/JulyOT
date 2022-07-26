@@ -3,7 +3,7 @@ slug: julyot-day27-az220
 title: "27: Exam AZ-220 Study Guide - Process and Manage Data"
 authors: [diana]
 tags: [30days, iot, az220, iotcerts]
-draft: true
+draft: false
 ---
 
 <head>
