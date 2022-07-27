@@ -3,7 +3,7 @@ slug: julyot-day28-az220
 title: "28: Exam AZ-220 Study Guide - Monitor, Troubleshoot, and Optimize IoT Solutions"
 authors: [diana]
 tags: [30days, iot, az220, iotcerts]
-draft: true
+draft: false
 ---
 
 <head>
