@@ -3,7 +3,7 @@ slug: julyot-day29-az220
 title: "29: Exam AZ-220 Study Guide - Implement Security"
 authors: [diana]
 tags: [30days, iot, az220, iotcerts]
-draft: true
+draft: false
 ---
 
 <head>

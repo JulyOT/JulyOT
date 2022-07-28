@@ -3,7 +3,7 @@ slug: 29-nano-framework
 title: "29: .NET nanoFramework Engineering Fundamentals"
 authors: [laurent,jose]
 tags: [30days, iot, embeddediot]
-draft: true
+draft: false
 ---
 
 <head>

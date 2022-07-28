@@ -3,7 +3,7 @@ slug: 2022-07-29-azure-percept-edge-ai
 title: "29: Discover how Azure Percept can deliver Edge AI solutions at scale in partnership with NVIDIA"
 authors: [amira]
 tags: [30days, iot, aiatedge]
-draft: true
+draft: false
 ---
 
 <head>
