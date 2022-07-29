@@ -21,8 +21,6 @@ draft: false
 
 ![Page banner](/img/png/JulyOT-banner-2022-07-29-azure-percept-edge-ai.png)
 
-_Build edge AI solutions with Azure Percept Learning Path._
-
 ## Discover how Azure Percept can deliver Edge AI solutions at scale in partnership with NVIDIA
 
 Accelerate edge AI with Azure Percept and other services to simplify AI and ML training and deployment at scale. Together, NVIDIA and Microsoft are transforming AI and ML by leveraging the power of the GPU at the edge combined with Azure services. We'll showcase demos and how we work with partners to develop and scale solutions for business growth.
