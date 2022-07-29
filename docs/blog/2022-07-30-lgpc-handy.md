@@ -3,7 +3,7 @@ slug: 30-lgpc-handy
 title: "30: Let's get personal: Computing - Open source prosthetics with Cliff Agius"
 authors: [jimb]
 tags: [30days, iot, embedded]
-draft: true
+draft: false
 ---
 
 <head>
