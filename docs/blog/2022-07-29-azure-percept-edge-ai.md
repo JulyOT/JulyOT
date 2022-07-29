@@ -21,7 +21,7 @@ draft: false
 
 ![Page banner](/img/png/JulyOT-banner-2022-07-29-azure-percept-edge-ai.png)
 
-_Today we learn about the Build edge AI solutions with Azure Percept Learning Path._
+_Build edge AI solutions with Azure Percept Learning Path._
 
 ## Discover how Azure Percept can deliver Edge AI solutions at scale in partnership with NVIDIA
 
