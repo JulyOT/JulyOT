@@ -4,10 +4,25 @@
         <title>#JulyOT Blog</title>
         <link>https://JulyOT.dev/blog</link>
         <description>#JulyOT Blog</description>
-        <lastBuildDate>Sat, 30 Jul 2022 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 31 Jul 2022 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[31: That's a wrap on #JulyOT]]></title>
+            <link>https://JulyOT.dev/blog/julyot-wrap</link>
+            <guid>julyot-wrap</guid>
+            <pubDate>Sun, 31 Jul 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[That's a wrap on #JulyOT for 2022]]></description>
+            <content:encoded><![CDATA[<p><em>That's a wrap on #JulyOT for 2022</em></p><p><img loading="lazy" alt="Wrap up of JulyOT" src="/assets/images/julyot-wrap-banner-95ddf3dcd7028254039fe37013631bb6.png" width="1000" height="420" class="img_ev3q"></p><p>Like all good things, #JulyOT has to come to an end. Thank you for joining us for 31 days of IoT!</p><p>In the past 31 days we've shared how to get started with IoT with IoT for Beginners, with written lessons and 4 livestreams. We've covered .NET nanoFramework for embedded development, along with some great Azure Sphere goodness, including how to emulate a classic Altair 8800 on it! We've provided guides for makers on what devices to use and how to use CircuitPython with Azure. We've learned more about PnPFlow and M5 stack. We've looked at autonomous systems with 4 livestreams on Project Bonsai. We've covered AI at the Edge with Azure Percept, smart dairy farming and TinyML. We've looked at using a Seeed Studio reTerminal with Azure IoT. We've given you a cloud skills challenge to grow your Azure IoT skills, and provided a study guide for the AZ-2220 Azure IoT Developer Specialty certification.</p><p>We've also celebrated #JulIoT this year with arduino powered rockets and learning about the reTerminal in Spanish.</p><p>Thank you for joining us, and please keep IoT in your hearts by building out your projects, learning more, getting certified, and sharing what you achieve on social media with the hashtag #JulyOT or #JulIoT. We'd love to celebrate your successes in a future post.</p><p>Despite #JulyOT being over, this site will remain! See you back here next year for JulyOT 2023.</p>]]></content:encoded>
+            <category>30days</category>
+            <category>iot</category>
+            <category>wrap</category>
+            <category>iot4b</category>
+            <category>embeddediot</category>
+            <category>aiatedge</category>
+            <category>iotcerts</category>
+        </item>
         <item>
             <title><![CDATA[30: Let's get personal: Computing - Open source prosthetics with Cliff Agius]]></title>
             <link>https://JulyOT.dev/blog/30-lgpc-handy</link>
