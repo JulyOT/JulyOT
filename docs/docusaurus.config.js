@@ -157,7 +157,7 @@ const config = {
           },
         ],
         */
-        copyright: `Copyright © ${new Date().getFullYear()} Microsoft - Built by @AzureAdvocates using @Docusaurus ♥️`,
+        copyright: `Built by @AzureAdvocates using @Docusaurus ♥️`,
       },
 
       prism: {
